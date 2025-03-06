@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\
+C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Release\
 CineMultisalas
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\App.xaml
 7109158022
 
-27648101067
+26-1273677054
 13-38814620
 MainWindow.xaml;Views\FuncionesView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\PeliculasView.xaml;Views\ReservasView.xaml;Views\SalasView.xaml;
 

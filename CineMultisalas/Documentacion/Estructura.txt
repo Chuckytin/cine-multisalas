@@ -1,0 +1,32 @@
+CineMultisalas/
+├── Models/
+│   ├── Usuario.cs
+│   ├── Pelicula.cs
+│   ├── Sala.cs
+│   ├── Funcion.cs
+│   └── Reserva.cs
+├── ViewModels/
+│   ├── LoginViewModel.cs
+│   ├── HomeViewModel.cs
+│   ├── PeliculasViewModel.cs
+│   ├── SalasViewModel.cs
+│   ├── FuncionesViewModel.cs
+│   └── ReservasViewModel.cs
+├── Views/
+│   ├── LoginView.xaml
+│   ├── HomeView.xaml
+│   ├── PeliculasView.xaml
+│   ├── SalasView.xaml
+│   ├── FuncionesView.xaml
+│   └── ReservasView.xaml
+├── Services/
+│   ├── DatabaseService.cs
+│   └── AuthService.cs
+├── Helpers/
+│   ├── Validaciones.cs
+│   └── AyudasContextuales.cs
+├── Resources/
+│   ├── Styles.xaml
+│   └── Images/
+├── App.xaml
+└── MainWindow.xaml
