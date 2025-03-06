@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cinemultisalas\\cinemultisalas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cinemultisalas\\cinemultisalas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cinemultisalas\\cinemultisalas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\App.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\App.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\App.xaml",
+              "RelativeToolTip": "CineMultisalas\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T15:16:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\MainWindow.xaml",
+              "RelativeToolTip": "CineMultisalas\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T15:15:31.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\CineMultisalas\\CineMultisalas\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:15:30.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
