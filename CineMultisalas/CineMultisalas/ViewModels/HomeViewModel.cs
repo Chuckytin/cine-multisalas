@@ -1,46 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using CineMultisalas.Views;
-using System.Windows.Input;
 using System.Windows;
 
 namespace CineMultisalas.ViewModels
 {
-    internal class HomeViewModel
+    public partial class HomeViewModel : ObservableObject
     {
-
-        public ICommand IrAPeliculasCommand { get; }
-        public ICommand IrASalasCommand { get; }
-
-        public HomeViewModel()
-        {
-            IrAPeliculasCommand = new RelayCommand(IrAPeliculas);
-            IrASalasCommand = new RelayCommand(IrASalas);
-        }
-
-        private void IrAPeliculas(object parameter)
+        [RelayCommand]
+        private void IrAPeliculas()
         {
             var peliculasView = new PeliculasView();
             peliculasView.Show();
             Application.Current.Windows[0]?.Close(); 
         }
 
-        private void IrASalas(object parameter)
+        [RelayCommand]
+        private void IrASalas()
         {
             var salasView = new SalasView();
             salasView.Show();
             Application.Current.Windows[0]?.Close(); 
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
     }
 }

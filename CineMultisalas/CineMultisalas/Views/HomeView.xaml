@@ -1,12 +1,15 @@
 ﻿<Window x:Class="CineMultisalas.Views.HomeView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CineMultisalas.Views"
-        mc:Ignorable="d"
-        Title="HomeView" Height="450" Width="800">
+        xmlns:viewModels="clr-namespace:CineMultisalas.ViewModels"
+        Title="Home" Height="300" Width="400">
+    <Window.DataContext>
+        <viewModels:HomeViewModel/>
+    </Window.DataContext>
     <Grid>
-        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Command="{Binding IrAPeliculasCommand}" Content="Ir a Películas" Width="150" Margin="0,0,0,10"/>
+            <Button Command="{Binding IrASalasCommand}" Content="Ir a Salas" Width="150"/>
+        </StackPanel>
     </Grid>
 </Window>

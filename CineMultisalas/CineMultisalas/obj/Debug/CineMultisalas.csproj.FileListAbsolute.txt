@@ -25,3 +25,4 @@ C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debu
 C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\PeliculasView.baml
 C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\ReservasView.baml
 C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\SalasView.baml
+C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\GeneratedInternalTypeHelper.g.cs
