@@ -1,0 +1,23 @@
+﻿<Window x:Class="CineMultisalas.Views.ReservationsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reservas" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <!-- DataGrid para mostrar las reservas -->
+        <DataGrid ItemsSource="{Binding Reservations}" AutoGenerateColumns="False" Margin="0,0,0,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Usuario" Binding="{Binding UserId}" Width="*" />
+                <DataGridTextColumn Header="Función" Binding="{Binding FunctionId}" Width="*" />
+                <DataGridTextColumn Header="Asientos" Binding="{Binding Seats}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Botones de acciones -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
+            <Button Content="Añadir Reserva" Command="{Binding AddReservationCommand}" Width="120" Margin="5" />
+            <Button Content="Editar Reserva" Command="{Binding EditReservationCommand}" Width="120" Margin="5" />
+            <Button Content="Eliminar Reserva" Command="{Binding DeleteReservationCommand}" Width="120" Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>

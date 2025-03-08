@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using CineMultisalas.Views;
+using CineMultisalas.ViewModels;
 
 namespace CineMultisalas.Views
 {
@@ -8,21 +8,22 @@ namespace CineMultisalas.Views
         public LoginView()
         {
             InitializeComponent();
+            DataContext = new LoginViewModel();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            
-            string user = txtUser.Text;
-            string password = txtPassword.Password;
+            // Se obtiene el ViewModel desde el DataContext
+            var viewModel = (LoginViewModel)DataContext;
 
-            // Validar con la base de datos
-            if (user == "admin" && password == "1234")
+            // Valida el usuario y la contraseña de manera asíncrona
+            if (await viewModel.Authenticate(txtUser.Text, txtPassword.Password))
             {
                 MessageBox.Show("Login exitoso");
-                
+
                 var homeView = new HomeView();
                 homeView.Show();
+
                 this.Close();
             }
             else

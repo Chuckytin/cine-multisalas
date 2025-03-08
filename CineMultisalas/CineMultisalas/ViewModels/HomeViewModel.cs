@@ -1,26 +1,47 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.Input;
 using CineMultisalas.Views;
-using System.Windows;
+using System.Windows.Input;
 
 namespace CineMultisalas.ViewModels
 {
-    public partial class HomeViewModel : ObservableObject
+    internal class HomeViewModel
     {
-        [RelayCommand]
-        private void IrAPeliculas()
+        // Comandos para navegar a las diferentes vistas
+        public ICommand NavigateToFilmsCommand { get; }
+        public ICommand NavigateToCinemasCommand { get; }
+        public ICommand NavigateToFunctionsCommand { get; }
+        public ICommand NavigateToReservationsCommand { get; }
+
+        public HomeViewModel()
         {
-            var peliculasView = new PeliculasView();
-            peliculasView.Show();
-            Application.Current.Windows[0]?.Close(); 
+            NavigateToFilmsCommand = new RelayCommand(NavigateToFilms);
+            NavigateToCinemasCommand = new RelayCommand(NavigateToCinemas);
+            NavigateToFunctionsCommand = new RelayCommand(NavigateToFunctions);
+            NavigateToReservationsCommand = new RelayCommand(NavigateToReservations);
         }
 
-        [RelayCommand]
-        private void IrASalas()
+        private void NavigateToFilms()
         {
-            var salasView = new SalasView();
-            salasView.Show();
-            Application.Current.Windows[0]?.Close(); 
+            var filmsView = new FilmsView();
+            filmsView.Show();
+        }
+
+        private void NavigateToCinemas()
+        {
+            var cinemasView = new CinemasView();
+            cinemasView.Show();
+        }
+
+        private void NavigateToFunctions()
+        {
+            var functionsView = new FunctionsView();
+            functionsView.Show();
+        }
+
+        private void NavigateToReservations()
+        {
+            var reservationsView = new ReservationsView();
+            reservationsView.Show();
         }
     }
 }

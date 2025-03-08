@@ -1,0 +1,23 @@
+﻿<Window x:Class="CineMultisalas.Views.CinemasView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Salas" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <!-- Centrar la ventana en la pantalla -->
+    <Grid Margin="10">
+        <!-- DataGrid para mostrar las salas -->
+        <DataGrid ItemsSource="{Binding Cinemas}" AutoGenerateColumns="False" Margin="0,0,0,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="Capacidad" Binding="{Binding Capacity}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Botones de acciones -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
+            <Button Content="Añadir Sala" Command="{Binding AddCinemaCommand}" Width="100" Margin="5" />
+            <Button Content="Editar Sala" Command="{Binding EditCinemaCommand}" Width="100" Margin="5" />
+            <Button Content="Eliminar Sala" Command="{Binding DeleteCinemaCommand}" Width="100" Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>

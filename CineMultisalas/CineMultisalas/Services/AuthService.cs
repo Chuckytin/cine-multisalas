@@ -1,31 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+﻿using CineMultisalas.Models;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CineMultisalas.Services
 {
-    internal class AuthService
+    public class AuthService
     {
+        private readonly DatabaseService _databaseService;
 
-        private string connectionString = "TuCadenaDeConexión";
-
-        public bool ValidarUsuario(string usuario, string contraseña)
+        public AuthService()
         {
-            using (var connection = new SqlConnection(connectionString))
-            {
-                connection.Open();
-                var query = "SELECT COUNT(*) FROM Users WHERE Name = @Usuario AND Password = @Password";
-                var command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@User", usuario);
-                command.Parameters.AddWithValue("@Password", contraseña);
-
-                int count = Convert.ToInt32(command.ExecuteScalar());
-                return count > 0; // Si count > 0, el usuario es válido
-            }
+            _databaseService = new DatabaseService("YourConnectionString");
         }
 
+        public async Task<bool> Authenticate(string username, string password)
+        {
+            // Obtiene la lista de usuarios desde la base de datos
+            var users = await _databaseService.GetUsersAsync();
+
+            // Busca el usuario que coincida con el nombre de usuario y la contraseña
+            var user = users.FirstOrDefault(u => u.Username == username && u.Password == password);
+
+            // True si el usuario existe, false en caso contrario
+            return user != null;
+        }
     }
 }

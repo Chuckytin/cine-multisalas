@@ -1,0 +1,24 @@
+﻿<Window x:Class="CineMultisalas.Views.FunctionsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Funciones" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <!-- DataGrid para mostrar las funciones -->
+        <DataGrid ItemsSource="{Binding Functions}" AutoGenerateColumns="False" Margin="0,0,0,50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Película" Binding="{Binding FilmId}" Width="*" />
+                <DataGridTextColumn Header="Sala" Binding="{Binding CinemaId}" Width="*" />
+                <DataGridTextColumn Header="Hora de Inicio" Binding="{Binding StartTime}" Width="*" />
+                <DataGridTextColumn Header="Hora de Fin" Binding="{Binding EndTime}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Botones de acciones -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
+            <Button Content="Añadir Función" Command="{Binding AddFunctionCommand}" Width="120" Margin="5" />
+            <Button Content="Editar Función" Command="{Binding EditFunctionCommand}" Width="120" Margin="5" />
+            <Button Content="Eliminar Función" Command="{Binding DeleteFunctionCommand}" Width="120" Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>
