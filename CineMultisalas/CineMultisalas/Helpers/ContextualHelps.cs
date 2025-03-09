@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CineMultisalas.Helpers
+﻿namespace CineMultisalas.Helpers
 {
     public static class ContextualHelps
     {
@@ -14,8 +8,16 @@ namespace CineMultisalas.Helpers
             {
                 case "LoginView":
                     return "Ingrese su nombre de usuario y contraseña para acceder al sistema.";
+                case "HomeView":
+                    return "Aquí puedes navegar a las diferentes secciones del cine.";
                 case "FilmsView":
-                    return "Aquí puede gestionar las películas disponibles en el cine.";
+                    return "Gestiona las películas disponibles en el cine.";
+                case "CinemasView":
+                    return "Gestiona las salas de cine.";
+                case "FunctionsView":
+                    return "Gestiona las funciones (horarios de películas).";
+                case "ReservationsView":
+                    return "Gestiona las reservas de los usuarios.";
                 default:
                     return "Ayuda no disponible para esta vista.";
             }

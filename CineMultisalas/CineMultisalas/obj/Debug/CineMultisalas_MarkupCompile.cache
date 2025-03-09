@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\App.xaml
-8-1832912827
+9-505682063
 
-26-1784348639
-25-1609737410
-MainWindow.xaml;Resources\Styles.xaml;Views\FunctionsView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\FilmsView.xaml;Views\ReservationsView.xaml;Views\CinemasView.xaml;
+27-1440794819
+1561972546997
+MainWindow.xaml;Resources\Styles.xaml;Views\AddFilmView.xaml;Views\FunctionsView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\FilmsView.xaml;Views\ReservationsView.xaml;Views\CinemasView.xaml;
 
 False
 

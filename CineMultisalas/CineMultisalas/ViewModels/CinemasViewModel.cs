@@ -10,6 +10,8 @@ namespace CineMultisalas.ViewModels
     internal class CinemasViewModel : INotifyPropertyChanged
     {
         private ObservableCollection<Cinema> _cinemas;
+        private readonly FirebaseService _firebaseService;
+
         public ObservableCollection<Cinema> Cinemas
         {
             get => _cinemas;
@@ -26,6 +28,7 @@ namespace CineMultisalas.ViewModels
 
         public CinemasViewModel()
         {
+            _firebaseService = new FirebaseService();
             LoadCinemas();
             AddCinemaCommand = new RelayCommand(OnAddCinema);
             EditCinemaCommand = new RelayCommand(OnEditCinema);
@@ -34,25 +37,48 @@ namespace CineMultisalas.ViewModels
 
         private async void LoadCinemas()
         {
-            // Cargar salas desde DatabaseService
-            var databaseService = new DatabaseService("YourConnectionString");
-            var cinemas = await databaseService.GetCinemasAsync();
+            // Cargar salas desde Firebase
+            var cinemas = await _firebaseService.GetDataAsync<Cinema>("cinemas");
             Cinemas = new ObservableCollection<Cinema>(cinemas);
         }
 
-        private void OnAddCinema()
+        // Método que añade una nueva sala.
+        private async void OnAddCinema()
         {
-            // Lógica para añadir una nueva sala
+            var newCinema = new Cinema
+            {
+                CinemaId = Cinemas.Count + 1, // Generar un ID único
+                Name = "Nueva Sala", // Nombre de la sala
+                Capacity = 100 // Capacidad de la sala
+            };
+
+            await _firebaseService.AddDataAsync("cinemas", newCinema);
+            LoadCinemas(); // Recargar la lista de salas
         }
 
-        private void OnEditCinema()
+        // Método que edita una sala existente.
+        private async void OnEditCinema()
         {
-            // Lógica para editar una sala existente
+            if (Cinemas.Count > 0)
+            {
+                var cinemaToEdit = Cinemas[0]; // Selecciona la primera sala (puedes usar un selector)
+                cinemaToEdit.Name = "Sala Editada"; // Nuevo nombre
+                cinemaToEdit.Capacity = 120; // Nueva capacidad
+
+                await _firebaseService.UpdateDataAsync("cinemas", cinemaToEdit.CinemaId.ToString(), cinemaToEdit);
+                LoadCinemas(); // Recargar la lista de salas
+            }
         }
 
-        private void OnDeleteCinema()
+        // Método que elimina una sala.
+        private async void OnDeleteCinema()
         {
-            // Lógica para eliminar una sala
+            if (Cinemas.Count > 0)
+            {
+                var cinemaToDelete = Cinemas[0]; // Selecciona la primera sala (puedes usar un selector)
+                await _firebaseService.DeleteDataAsync("cinemas", cinemaToDelete.CinemaId.ToString());
+                LoadCinemas(); // Recargar la lista de salas
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -13,17 +13,16 @@ namespace CineMultisalas.Views
 
         private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            // Se obtiene el ViewModel desde el DataContext
+            var username = txtUser.Text;
+            var password = txtPassword.Password;
+            System.Diagnostics.Debug.WriteLine($"Usuario: {username}, Contraseña: {password}");
+
             var viewModel = (LoginViewModel)DataContext;
-
-            // Valida el usuario y la contraseña de manera asíncrona
-            if (await viewModel.Authenticate(txtUser.Text, txtPassword.Password))
+            var userId = await viewModel.LoginAsync(username, password);
+            if (userId != null)
             {
-                MessageBox.Show("Login exitoso");
-
                 var homeView = new HomeView();
                 homeView.Show();
-
                 this.Close();
             }
             else

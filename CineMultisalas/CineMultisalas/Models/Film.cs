@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CineMultisalas.Models
 {
-    internal class Film
+    public class Film
     {
 
         public int FilmId { get; set; }

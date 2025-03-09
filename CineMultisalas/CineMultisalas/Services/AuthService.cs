@@ -1,28 +1,54 @@
-﻿using CineMultisalas.Models;
+﻿using Firebase.Database;
+using Firebase.Database.Query;
 using System.Linq;
 using System.Threading.Tasks;
+using CineMultisalas.Models;
 
 namespace CineMultisalas.Services
 {
     public class AuthService
     {
-        private readonly DatabaseService _databaseService;
+        private readonly FirebaseClient _firebase;
 
         public AuthService()
         {
-            _databaseService = new DatabaseService("YourConnectionString");
+            _firebase = new FirebaseClient("https://cines-multisalas-default-rtdb.europe-west1.firebasedatabase.app/");
         }
 
-        public async Task<bool> Authenticate(string username, string password)
+        // Autentica a un usuario con username y password
+        public async Task<string> LoginAsync(string username, string password)
         {
-            // Obtiene la lista de usuarios desde la base de datos
-            var users = await _databaseService.GetUsersAsync();
+            try
+            {
+                var users = await _firebase
+                    .Child("users")
+                    .OnceAsync<User>();
 
-            // Busca el usuario que coincida con el nombre de usuario y la contraseña
-            var user = users.FirstOrDefault(u => u.Username == username && u.Password == password);
+                foreach (var user in users)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Usuario: {user.Object.Username}, Contraseña: {user.Object.Password}");
+                }
 
-            // True si el usuario existe, false en caso contrario
-            return user != null;
+                var userMatch = users.FirstOrDefault(u =>
+                    u.Object.Username == username &&
+                    u.Object.Password == password
+                );
+
+                if (userMatch != null)
+                {
+                    return userMatch.Object.UserId.ToString();
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (System.Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Error en LoginAsync: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Stack Trace: {ex.StackTrace}");
+                return null;
+            }
         }
     }
 }

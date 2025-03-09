@@ -1,15 +1,34 @@
 ﻿<Window x:Class="CineMultisalas.Views.HomeView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Inicio" Height="300" Width="400"
+        Title="Inicio" Height="450" Width="450"
         WindowStartupLocation="CenterScreen">
-    <Grid Margin="10">
-        <!-- Botones de navegación -->
+    <Grid>
+
+        <!-- Menú superior -->
+        <Menu VerticalAlignment="Top" Background="#FF0078D7">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Cerrar sesión" Click="MenuItemLogout_Click"/>
+            </MenuItem>
+            <MenuItem Header="Ayuda">
+                <MenuItem Header="Mostrar ayuda" Click="MenuItemHelp_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- Contenido principal -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Content="Películas" Command="{Binding NavigateToFilmsCommand}" Width="200" />
-            <Button Content="Salas" Command="{Binding NavigateToCinemasCommand}" Width="200" />
-            <Button Content="Funciones" Command="{Binding NavigateToFunctionsCommand}" Width="200" />
-            <Button Content="Reservas" Command="{Binding NavigateToReservationsCommand}" Width="200" />
+            <Button Content="Películas" Command="{Binding NavigateToFilmsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
+            <Button Content="Salas" Command="{Binding NavigateToCinemasCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
+            <Button Content="Funciones" Command="{Binding NavigateToFunctionsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
+            <Button Content="Reservas" Command="{Binding NavigateToReservationsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
         </StackPanel>
+        
+        <!-- Botón de ayuda -->
+        <Button Style="{StaticResource HelpButtonStyle}" 
+        Click="ButtonHelp_Click" 
+        HorizontalAlignment="Right" 
+        VerticalAlignment="Top" 
+        Margin="15"/>
+    
     </Grid>
 </Window>
