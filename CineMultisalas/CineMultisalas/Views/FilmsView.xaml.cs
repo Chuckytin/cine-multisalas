@@ -1,20 +1,7 @@
 ﻿using CineMultisalas.Helpers;
-using CineMultisalas.Models;
-using CineMultisalas.Services;
 using CineMultisalas.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CineMultisalas.Views.Comp;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace CineMultisalas.Views
 {
@@ -24,6 +11,39 @@ namespace CineMultisalas.Views
         {
             InitializeComponent();
             DataContext = new FilmsViewModel();
+        }
+
+        private void ButtonAddFilm_Click(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (FilmsViewModel)DataContext;
+            var addFilmView = new AddFilmView(viewModel);
+            addFilmView.ShowDialog();
+        }
+
+        private void ButtonEditFilm_Click(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (FilmsViewModel)DataContext;
+            if (viewModel.SelectedFilm == null)
+            {
+                MessageBox.Show("Por favor, selecciona una película para editar.");
+                return;
+            }
+
+            var editFilmView = new EditFilmView(viewModel);
+            editFilmView.ShowDialog();
+        }
+
+        private void ButtonDeleteFilm_Click(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (FilmsViewModel)DataContext;
+            if (viewModel.SelectedFilm == null)
+            {
+                MessageBox.Show("Por favor, selecciona una película para eliminar.");
+                return;
+            }
+
+            var deleteFilmView = new DeleteFilmView(viewModel);
+            deleteFilmView.ShowDialog();
         }
 
         private void ButtonHelp_Click(object sender, RoutedEventArgs e)

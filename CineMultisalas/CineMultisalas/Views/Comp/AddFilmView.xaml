@@ -1,4 +1,4 @@
-﻿<Window x:Class="CineMultisalas.Views.AddFilmView"
+﻿<Window x:Class="CineMultisalas.Views.Comp.AddFilmView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Añadir Película" Height="450" Width="450"

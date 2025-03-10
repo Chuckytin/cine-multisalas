@@ -160,5 +160,9 @@ F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\bi
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\bin\Debug\System.Collections.Immutable.xml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\bin\Debug\System.ValueTuple.xml
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\AddFilmView.baml
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\AddFilmView.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\comp\AddFilmView.baml
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\comp\AddFilmView.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditFilmView.baml
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditFilmView.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteFilmView.baml
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteFilmView.g.cs

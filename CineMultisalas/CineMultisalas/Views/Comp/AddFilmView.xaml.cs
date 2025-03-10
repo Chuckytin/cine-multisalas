@@ -3,7 +3,7 @@ using CineMultisalas.Models;
 using System;
 using System.Windows;
 
-namespace CineMultisalas.Views
+namespace CineMultisalas.Views.Comp
 {
     public partial class AddFilmView : Window
     {
@@ -17,6 +17,13 @@ namespace CineMultisalas.Views
 
         private void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(txtTitle.Text) || string.IsNullOrEmpty(txtDescription.Text) ||
+                string.IsNullOrEmpty(txtDuration.Text) || string.IsNullOrEmpty(txtGenre.Text))
+            {
+                MessageBox.Show("Por favor, completa todos los campos.");
+                return;
+            }
+
             var newFilm = new Film
             {
                 Title = txtTitle.Text,
@@ -25,8 +32,8 @@ namespace CineMultisalas.Views
                 Genre = txtGenre.Text
             };
 
-            _viewModel.OnAddFilm(); // Llama al método en el ViewModel
-            this.Close(); 
+            _viewModel.OnAddFilm(newFilm); // Pasa la nueva película al ViewModel
+            this.Close();
         }
     }
 }

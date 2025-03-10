@@ -1,89 +1,105 @@
 ﻿using CineMultisalas.Models;
 using CineMultisalas.Services;
 using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 
-namespace CineMultisalas.ViewModels
+public class FilmsViewModel : INotifyPropertyChanged
 {
-    public class FilmsViewModel : INotifyPropertyChanged
+    private ObservableCollection<Film> _films;
+    private readonly FirebaseService _firebaseService;
+    private Film _selectedFilm;
+
+    public ObservableCollection<Film> Films
     {
-        private ObservableCollection<Film> _films;
-        private readonly FirebaseService _firebaseService;
-
-        public ObservableCollection<Film> Films
+        get => _films;
+        set
         {
-            get => _films;
-            set
-            {
-                _films = value;
-                OnPropertyChanged(nameof(Films));
-            }
+            _films = value;
+            OnPropertyChanged(nameof(Films));
         }
-
-        public ICommand AddFilmCommand { get; }
-        public ICommand EditFilmCommand { get; }
-        public ICommand DeleteFilmCommand { get; }
-
-        public FilmsViewModel()
-        {
-            _firebaseService = new FirebaseService();
-            LoadFilms();
-
-            AddFilmCommand = new RelayCommand(OnAddFilm);
-            EditFilmCommand = new RelayCommand(OnEditFilm);
-            DeleteFilmCommand = new RelayCommand(OnDeleteFilm);
-        }
-
-        private async void LoadFilms()
-        {
-            var films = await _firebaseService.GetDataAsync<Film>("films");
-            Films = new ObservableCollection<Film>(films);
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public async void OnAddFilm()
-        {
-            var newFilm = new Film
-            {
-                FilmId = Films.Count + 1, // Genera un ID único
-                Title = "Nueva Película", 
-                Description = "Descripción de la película", 
-                Duration = 120, 
-                Genre = "Acción" 
-            };
-
-            await _firebaseService.AddDataAsync("films", newFilm);
-            LoadFilms(); 
-        }
-
-        private async void OnEditFilm()
-        {
-            if (Films.Count > 0)
-            {
-                var filmToEdit = Films[0]; // Selecciona la primera película (puedes usar un selector)
-                filmToEdit.Title = "Película Editada"; // Nuevo título
-                filmToEdit.Duration = 150; // Nueva duración
-
-                await _firebaseService.UpdateDataAsync("films", filmToEdit.FilmId.ToString(), filmToEdit);
-                LoadFilms(); // Recargar la lista de películas
-            }
-        }
-
-        private async void OnDeleteFilm()
-        {
-            if (Films.Count > 0)
-            {
-                var filmToDelete = Films[0]; // Selecciona la primera película (puedes usar un selector)
-                await _firebaseService.DeleteDataAsync("films", filmToDelete.FilmId.ToString());
-                LoadFilms(); // Recargar la lista de películas
-            }
-        }
-
-        protected void OnPropertyChanged(string propertyName) =>
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
+
+    public Film SelectedFilm
+    {
+        get => _selectedFilm;
+        set
+        {
+            _selectedFilm = value;
+            OnPropertyChanged(nameof(SelectedFilm));
+        }
+    }
+
+    public ICommand AddFilmCommand { get; }
+    public ICommand EditFilmCommand { get; }
+    public ICommand DeleteFilmCommand { get; }
+
+    public FilmsViewModel()
+    {
+        _firebaseService = new FirebaseService();
+        Films = new ObservableCollection<Film>();
+        LoadFilms();
+
+        AddFilmCommand = new RelayCommand<Film>(OnAddFilm);
+        EditFilmCommand = new RelayCommand(OnEditFilm);
+        DeleteFilmCommand = new RelayCommand(OnDeleteFilm);
+    }
+
+    private async void LoadFilms()
+    {
+        var films = await _firebaseService.GetDataAsync<Film>("films");
+        Films = new ObservableCollection<Film>(films);
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    public async void OnAddFilm(Film newFilm)
+    {
+        if (newFilm == null)
+        {
+            MessageBox.Show("Error: La película no puede ser nula.");
+            return;
+        }
+
+        newFilm.FilmId = Films.Count + 1; // Generar un ID único
+        await _firebaseService.AddDataAsync("films", newFilm);
+        LoadFilms();
+    }
+
+    public async void OnEditFilm()
+    {
+        if (SelectedFilm == null)
+        {
+            MessageBox.Show("Por favor, selecciona una película para editar.");
+            return;
+        }
+
+        await _firebaseService.UpdateDataAsync("films", SelectedFilm.FilmId, SelectedFilm);
+        LoadFilms();
+    }
+
+    public async void OnDeleteFilm()
+    {
+        if (SelectedFilm == null)
+        {
+            MessageBox.Show("Por favor, selecciona una película para eliminar.");
+            return;
+        }
+
+        try
+        {
+            await _firebaseService.DeleteDataAsync("films", SelectedFilm.FilmId);
+            LoadFilms(); // Recargar la lista de películas
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error al eliminar la película: {ex.Message}");
+        }
+    }
+
+    protected void OnPropertyChanged(string propertyName) =>
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }

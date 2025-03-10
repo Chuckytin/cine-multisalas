@@ -65,7 +65,7 @@ namespace CineMultisalas.ViewModels
                 cinemaToEdit.Name = "Sala Editada"; // Nuevo nombre
                 cinemaToEdit.Capacity = 120; // Nueva capacidad
 
-                await _firebaseService.UpdateDataAsync("cinemas", cinemaToEdit.CinemaId.ToString(), cinemaToEdit);
+                await _firebaseService.UpdateDataAsync("cinemas", cinemaToEdit.CinemaId, cinemaToEdit);
                 LoadCinemas(); // Recargar la lista de salas
             }
         }
@@ -76,7 +76,7 @@ namespace CineMultisalas.ViewModels
             if (Cinemas.Count > 0)
             {
                 var cinemaToDelete = Cinemas[0]; // Selecciona la primera sala (puedes usar un selector)
-                await _firebaseService.DeleteDataAsync("cinemas", cinemaToDelete.CinemaId.ToString());
+                await _firebaseService.DeleteDataAsync("cinemas", cinemaToDelete.CinemaId);
                 LoadCinemas(); // Recargar la lista de salas
             }
         }

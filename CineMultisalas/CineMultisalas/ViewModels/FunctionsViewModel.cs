@@ -66,7 +66,7 @@ namespace CineMultisalas.ViewModels
                 var functionToEdit = Functions[0]; // Ejemplo: Selecciona la primera función
                 functionToEdit.StartTime = DateTime.Now.AddHours(1); // Ejemplo: Cambiar la hora de inicio
 
-                await _firebaseService.UpdateDataAsync("functions", functionToEdit.FunctionId.ToString(), functionToEdit);
+                await _firebaseService.UpdateDataAsync("functions", functionToEdit.FunctionId, functionToEdit);
                 LoadFunctions(); // Recargar la lista de funciones
             }
         }
@@ -77,7 +77,7 @@ namespace CineMultisalas.ViewModels
             if (Functions.Count > 0)
             {
                 var functionToDelete = Functions[0]; // Ejemplo: Selecciona la primera función
-                await _firebaseService.DeleteDataAsync("functions", functionToDelete.FunctionId.ToString());
+                await _firebaseService.DeleteDataAsync("functions", functionToDelete.FunctionId);
                 LoadFunctions(); // Recargar la lista de funciones
             }
         }

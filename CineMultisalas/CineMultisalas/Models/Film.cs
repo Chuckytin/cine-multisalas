@@ -9,6 +9,7 @@ namespace CineMultisalas.Models
     public class Film
     {
 
+        public string FirebaseId { get; set; }
         public int FilmId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }

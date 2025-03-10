@@ -64,7 +64,7 @@ namespace CineMultisalas.ViewModels
                 var reservationToEdit = Reservations[0]; // Ejemplo: Selecciona la primera reserva
                 reservationToEdit.Seats = 4; // Ejemplo: Cambiar el número de asientos
 
-                await _firebaseService.UpdateDataAsync("reservations", reservationToEdit.ReservationId.ToString(), reservationToEdit);
+                await _firebaseService.UpdateDataAsync("reservations", reservationToEdit.ReservationId, reservationToEdit);
                 LoadReservations(); // Recargar la lista de reservas
             }
         }
@@ -75,7 +75,7 @@ namespace CineMultisalas.ViewModels
             if (Reservations.Count > 0)
             {
                 var reservationToDelete = Reservations[0]; // Ejemplo: Selecciona la primera reserva
-                await _firebaseService.DeleteDataAsync("reservations", reservationToDelete.ReservationId.ToString());
+                await _firebaseService.DeleteDataAsync("reservations", reservationToDelete.ReservationId);
                 LoadReservations(); // Recargar la lista de reservas
             }
         }

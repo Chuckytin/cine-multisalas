@@ -287,8 +287,14 @@
     <Compile Include="ViewModels\FilmsViewModel.cs" />
     <Compile Include="ViewModels\ReservationsViewModel.cs" />
     <Compile Include="ViewModels\CinemasViewModel.cs" />
-    <Compile Include="Views\AddFilmView.xaml.cs">
+    <Compile Include="Views\Comp\AddFilmView.xaml.cs">
       <DependentUpon>AddFilmView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\DeleteFilmView.xaml.cs">
+      <DependentUpon>DeleteFilmView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\EditFilmView.xaml.cs">
+      <DependentUpon>EditFilmView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FunctionsView.xaml.cs">
       <DependentUpon>FunctionsView.xaml</DependentUpon>
@@ -324,7 +330,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\AddFilmView.xaml">
+    <Page Include="Views\Comp\AddFilmView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\DeleteFilmView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\EditFilmView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
