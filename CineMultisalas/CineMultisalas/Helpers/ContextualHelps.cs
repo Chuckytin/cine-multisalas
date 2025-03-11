@@ -2,6 +2,7 @@
 {
     public static class ContextualHelps
     {
+        // Devuelve un mensaje de ayuda contextual basado en la vista actual
         public static string GetHelp(string viewName)
         {
             switch (viewName)

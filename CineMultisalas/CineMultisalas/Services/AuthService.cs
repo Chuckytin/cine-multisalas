@@ -24,11 +24,6 @@ namespace CineMultisalas.Services
                     .Child("users")
                     .OnceAsync<User>();
 
-                foreach (var user in users)
-                {
-                    System.Diagnostics.Debug.WriteLine($"Usuario: {user.Object.Username}, Contraseña: {user.Object.Password}");
-                }
-
                 var userMatch = users.FirstOrDefault(u =>
                     u.Object.Username == username &&
                     u.Object.Password == password
@@ -46,7 +41,6 @@ namespace CineMultisalas.Services
             catch (System.Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"Error en LoginAsync: {ex.Message}");
-                System.Diagnostics.Debug.WriteLine($"Stack Trace: {ex.StackTrace}");
                 return null;
             }
         }
