@@ -20,6 +20,7 @@ namespace CineMultisalas.Views
         public FunctionsView()
         {
             InitializeComponent();
+            DataContext = new FunctionsViewModel();
         }
     }
 }

@@ -20,6 +20,7 @@ namespace CineMultisalas.Views
         public ReservationsView()
         {
             InitializeComponent();
+            DataContext = new ReservationsViewModel();
         }
     }
 }

@@ -1,10 +1,10 @@
 ﻿using CineMultisalas.Models;
 using CineMultisalas.Services;
 using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
-using System;
 
 internal class FunctionsViewModel : INotifyPropertyChanged
 {
@@ -12,26 +12,29 @@ internal class FunctionsViewModel : INotifyPropertyChanged
     private readonly FirebaseService _firebaseService;
     private Function _selectedFunction;
 
+    // Propiedad para la lista de funciones
     public ObservableCollection<Function> Functions
     {
         get => _functions;
         set
         {
             _functions = value;
-            OnPropertyChanged(nameof(Functions));
+            OnPropertyChanged(nameof(Functions)); // Notificar cambios en la propiedad
         }
     }
 
+    // Propiedad para la función seleccionada
     public Function SelectedFunction
     {
         get => _selectedFunction;
         set
         {
             _selectedFunction = value;
-            OnPropertyChanged(nameof(SelectedFunction));
+            OnPropertyChanged(nameof(SelectedFunction)); // Notificar cambios en la propiedad
         }
     }
 
+    // Comandos para añadir, editar y eliminar funciones
     public ICommand AddFunctionCommand { get; }
     public ICommand EditFunctionCommand { get; }
     public ICommand DeleteFunctionCommand { get; }
@@ -40,26 +43,27 @@ internal class FunctionsViewModel : INotifyPropertyChanged
     {
         _firebaseService = new FirebaseService();
         Functions = new ObservableCollection<Function>();
-        LoadFunctions();
+        LoadFunctions(); // Cargar las funciones al iniciar
 
+        // Asignar métodos a los comandos
         AddFunctionCommand = new RelayCommand(OnAddFunction);
         EditFunctionCommand = new RelayCommand(OnEditFunction);
         DeleteFunctionCommand = new RelayCommand(OnDeleteFunction);
     }
 
+    // Cargar las funciones desde Firebase
     private async void LoadFunctions()
     {
         var functions = await _firebaseService.GetDataAsync<Function>("functions");
         Functions = new ObservableCollection<Function>(functions);
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;
-
+    // Método para añadir una nueva función
     public async void OnAddFunction()
     {
         var newFunction = new Function
         {
-            FunctionId = Functions.Count + 1,
+            FunctionId = Functions.Count + 1, // Generar un ID único
             FilmId = 1, // Ejemplo: ID de la película
             CinemaId = 1, // Ejemplo: ID de la sala
             StartTime = DateTime.Now, // Ejemplo: Hora de inicio
@@ -67,27 +71,31 @@ internal class FunctionsViewModel : INotifyPropertyChanged
         };
 
         await _firebaseService.AddDataAsync("functions", newFunction);
-        LoadFunctions();
+        LoadFunctions(); // Recargar la lista de funciones
     }
 
+    // Método para editar una función existente
     public async void OnEditFunction()
     {
         if (SelectedFunction != null)
         {
             await _firebaseService.UpdateDataAsync("functions", SelectedFunction.FunctionId, SelectedFunction);
-            LoadFunctions();
+            LoadFunctions(); // Recargar la lista de funciones
         }
     }
 
+    // Método para eliminar una función
     public async void OnDeleteFunction()
     {
         if (SelectedFunction != null)
         {
             await _firebaseService.DeleteDataAsync("functions", SelectedFunction.FunctionId);
-            LoadFunctions();
+            LoadFunctions(); // Recargar la lista de funciones
         }
     }
 
+    // Implementación de INotifyPropertyChanged
+    public event PropertyChangedEventHandler PropertyChanged;
     protected void OnPropertyChanged(string propertyName) =>
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }

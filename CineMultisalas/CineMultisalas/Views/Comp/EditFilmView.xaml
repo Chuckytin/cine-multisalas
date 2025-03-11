@@ -5,14 +5,38 @@
         WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <StackPanel>
+            <!-- Título -->
             <Label Content="Título:" />
             <TextBox x:Name="txtTitle" Text="{Binding SelectedFilm.Title}" />
+
+            <!-- Descripción -->
             <Label Content="Descripción:" />
             <TextBox x:Name="txtDescription" Text="{Binding SelectedFilm.Description}" />
+
+            <!-- Duración -->
             <Label Content="Duración (min):" />
             <TextBox x:Name="txtDuration" Text="{Binding SelectedFilm.Duration}" />
+
+            <!-- Género (ComboBox) -->
             <Label Content="Género:" />
-            <TextBox x:Name="txtGenre" Text="{Binding SelectedFilm.Genre}" />
+            <ComboBox x:Name="cmbGenre" SelectedValuePath="Content" SelectedValue="{Binding SelectedFilm.Genre}">
+                <ComboBoxItem Content="Acción" />
+                <ComboBoxItem Content="Aventura" />
+                <ComboBoxItem Content="Ciencia ficción" />
+                <ComboBoxItem Content="Comedia" />
+                <ComboBoxItem Content="Drama" />
+                <ComboBoxItem Content="Terror" />
+                <ComboBoxItem Content="Suspenso" />
+                <ComboBoxItem Content="Fantasía" />
+                <ComboBoxItem Content="Musical" />
+                <ComboBoxItem Content="Bélico" />
+                <ComboBoxItem Content="Western" />
+                <ComboBoxItem Content="Documental" />
+                <ComboBoxItem Content="Romance" />
+                <ComboBoxItem Content="Animación" />
+            </ComboBox>
+
+            <!-- Botón Guardar Cambios -->
             <Button Content="Guardar Cambios" Click="ButtonSave_Click" Margin="0,10" />
         </StackPanel>
     </Grid>
