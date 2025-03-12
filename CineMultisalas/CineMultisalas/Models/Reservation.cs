@@ -8,10 +8,9 @@ namespace CineMultisalas.Models
 {
     public class Reservation
     {
-        public int ReservationId { get; set; }
-        public int UserId { get; set; } // FK a User
-        public int FunctionId { get; set; } // FK a Function
-        public int Seats { get; set; } // Número de asientos reservados
-
+        public int Id { get; set; } 
+        public int UserId { get; set; }
+        public int FunctionId { get; set; }
+        public int Seats { get; set; }
     }
 }

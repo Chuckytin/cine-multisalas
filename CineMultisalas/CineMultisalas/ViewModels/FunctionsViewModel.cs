@@ -68,7 +68,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
             return;
         }
 
-        newFunction.FunctionId = Functions.Count + 1; // Generar un ID único
+        newFunction.Id = Functions.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("functions", newFunction);
         LoadFunctions(); // Recargar la lista de funciones
     }
@@ -82,7 +82,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
             return;
         }
 
-        await _firebaseService.UpdateDataAsync("functions", SelectedFunction.FunctionId, SelectedFunction);
+        await _firebaseService.UpdateDataAsync("functions", SelectedFunction.Id, SelectedFunction);
         LoadFunctions(); // Recargar la lista de funciones
     }
 
@@ -97,7 +97,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
 
         try
         {
-            await _firebaseService.DeleteDataAsync("functions", SelectedFunction.FunctionId);
+            await _firebaseService.DeleteDataAsync<Function>("functions", SelectedFunction.Id); 
             LoadFunctions(); // Recargar la lista de funciones
         }
         catch (Exception ex)

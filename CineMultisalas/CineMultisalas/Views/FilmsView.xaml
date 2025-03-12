@@ -24,11 +24,5 @@
             <Button Content="Eliminar Película" Click="ButtonDeleteFilm_Click" Width="120" Margin="5" />
         </StackPanel>
 
-        <!-- Botón de ayuda -->
-        <Button Style="{StaticResource HelpButtonStyle}" 
-                Click="ButtonHelp_Click" 
-                HorizontalAlignment="Right" 
-                VerticalAlignment="Top" 
-                Margin="15"/>
     </Grid>
 </Window>

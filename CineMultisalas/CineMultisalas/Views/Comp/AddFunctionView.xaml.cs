@@ -27,8 +27,8 @@ namespace CineMultisalas.Views.Comp
             // Crear una nueva función con los datos ingresados
             var newFunction = new Function
             {
-                FilmId = (cmbFilm.SelectedItem as Film).FilmId,
-                CinemaId = (cmbCinema.SelectedItem as Cinema).CinemaId,
+                FilmId = (cmbFilm.SelectedItem as Film).Id,
+                CinemaId = (cmbCinema.SelectedItem as Cinema).Id,
                 StartTime = dpStartTime.SelectedDate.Value,
                 EndTime = dpEndTime.SelectedDate.Value
             };

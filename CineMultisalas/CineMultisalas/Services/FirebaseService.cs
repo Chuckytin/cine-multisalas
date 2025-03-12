@@ -34,34 +34,38 @@ namespace CineMultisalas.Services
         }
 
         // Actualiza un objeto en una ruta específica en Firebase
-        public async Task UpdateDataAsync<T>(string path, int filmId, T data)
+        public async Task UpdateDataAsync<T>(string path, int id, T data)
         {
-            // Buscar el registro en Firebase por FilmId
-            var films = await _firebase.Child(path).OnceAsync<T>();
-            var filmToUpdate = films.FirstOrDefault(f => (f.Object as Film)?.FilmId == filmId);
+            // Buscar el registro en Firebase por ID
+            var items = await _firebase.Child(path).OnceAsync<T>();
+            var itemToUpdate = items.FirstOrDefault(i => (i.Object as dynamic).Id == id); // Usar dynamic para acceder a la propiedad Id
 
-            if (filmToUpdate != null)
+            if (itemToUpdate != null)
             {
                 // Actualizar el registro encontrado
-                await _firebase.Child(path).Child(filmToUpdate.Key).PutAsync(data);
+                await _firebase.Child(path).Child(itemToUpdate.Key).PutAsync(data);
+            }
+            else
+            {
+                throw new ArgumentException("No se encontró el registro con el ID especificado.");
             }
         }
 
         // Elimina un objeto de una ruta específica en Firebase
-        public async Task DeleteDataAsync(string path, int filmId)
+        public async Task DeleteDataAsync<T>(string path, int id)
         {
-            // Buscar el registro en Firebase por FilmId
-            var films = await _firebase.Child(path).OnceAsync<Film>();
-            var filmToDelete = films.FirstOrDefault(f => f.Object.FilmId == filmId);
+            // Buscar el registro en Firebase por ID
+            var items = await _firebase.Child(path).OnceAsync<T>();
+            var itemToDelete = items.FirstOrDefault(i => (i.Object as dynamic).Id == id); // Usar dynamic para acceder a la propiedad Id
 
-            if (filmToDelete != null)
+            if (itemToDelete != null)
             {
                 // Eliminar el registro encontrado
-                await _firebase.Child(path).Child(filmToDelete.Key).DeleteAsync();
+                await _firebase.Child(path).Child(itemToDelete.Key).DeleteAsync();
             }
             else
             {
-                throw new ArgumentException("No se encontró la película con el ID especificado.");
+                throw new ArgumentException("No se encontró el registro con el ID especificado.");
             }
         }
     }

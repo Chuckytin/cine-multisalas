@@ -26,7 +26,7 @@ namespace CineMultisalas.Views.Comp
             // Crear una nueva reserva con los datos ingresados
             var newReservation = new Reservation
             {
-                FunctionId = (cmbFunction.SelectedItem as Function).FunctionId,
+                FunctionId = (cmbFunction.SelectedItem as Function).Id,
                 Seats = int.Parse(txtSeats.Text)
             };
 

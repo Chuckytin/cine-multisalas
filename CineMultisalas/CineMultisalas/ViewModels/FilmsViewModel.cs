@@ -64,7 +64,7 @@ public class FilmsViewModel : INotifyPropertyChanged
             return;
         }
 
-        newFilm.FilmId = Films.Count + 1; // Generar un ID único
+        newFilm.Id = Films.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("films", newFilm);
         LoadFilms();
     }
@@ -77,7 +77,7 @@ public class FilmsViewModel : INotifyPropertyChanged
             return;
         }
 
-        await _firebaseService.UpdateDataAsync("films", SelectedFilm.FilmId, SelectedFilm);
+        await _firebaseService.UpdateDataAsync("films", SelectedFilm.Id, SelectedFilm);
         LoadFilms();
     }
 
@@ -91,7 +91,7 @@ public class FilmsViewModel : INotifyPropertyChanged
 
         try
         {
-            await _firebaseService.DeleteDataAsync("films", SelectedFilm.FilmId);
+            await _firebaseService.DeleteDataAsync<Film>("films", SelectedFilm.Id); // Especificar el tipo <Film>
             LoadFilms(); // Recargar la lista de películas
         }
         catch (Exception ex)

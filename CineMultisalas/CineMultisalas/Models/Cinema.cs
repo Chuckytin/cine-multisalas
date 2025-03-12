@@ -8,10 +8,8 @@ namespace CineMultisalas.Models
 {
     public class Cinema
     {
-
-        public int CinemaId { get; set; }
+        public int Id { get; set; } 
         public string Name { get; set; }
-        public int Capacity { get; set; } // Número de asientos
-
+        public int Capacity { get; set; }
     }
 }

@@ -8,12 +8,10 @@ namespace CineMultisalas.Models
 {
     public class Function
     {
-
-        public int FunctionId { get; set; }
-        public int FilmId { get; set; } // FK a Film
-        public int CinemaId { get; set; } // FK a Cinema
+        public int Id { get; set; } 
+        public int FilmId { get; set; }
+        public int CinemaId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-
     }
 }

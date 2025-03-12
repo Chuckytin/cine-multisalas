@@ -68,7 +68,7 @@ public class ReservationsViewModel : INotifyPropertyChanged
             return;
         }
 
-        newReservation.ReservationId = Reservations.Count + 1; // Generar un ID único
+        newReservation.Id = Reservations.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("reservations", newReservation);
         LoadReservations(); // Recargar la lista de reservas
     }
@@ -82,7 +82,7 @@ public class ReservationsViewModel : INotifyPropertyChanged
             return;
         }
 
-        await _firebaseService.UpdateDataAsync("reservations", SelectedReservation.ReservationId, SelectedReservation);
+        await _firebaseService.UpdateDataAsync("reservations", SelectedReservation.Id, SelectedReservation);
         LoadReservations(); // Recargar la lista de reservas
     }
 
@@ -97,7 +97,7 @@ public class ReservationsViewModel : INotifyPropertyChanged
 
         try
         {
-            await _firebaseService.DeleteDataAsync("reservations", SelectedReservation.ReservationId);
+            await _firebaseService.DeleteDataAsync<Reservation>("reservations", SelectedReservation.Id); 
             LoadReservations(); // Recargar la lista de reservas
         }
         catch (Exception ex)

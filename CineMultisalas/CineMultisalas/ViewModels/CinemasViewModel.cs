@@ -68,7 +68,7 @@ public class CinemasViewModel : INotifyPropertyChanged
             return;
         }
 
-        newCinema.CinemaId = Cinemas.Count + 1; // Generar un ID único
+        newCinema.Id = Cinemas.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("cinemas", newCinema);
         LoadCinemas(); // Recargar la lista de salas
     }
@@ -76,14 +76,15 @@ public class CinemasViewModel : INotifyPropertyChanged
     // Método para editar una sala existente
     public async void OnEditCinema()
     {
+
         if (SelectedCinema == null)
         {
             MessageBox.Show("Por favor, selecciona una sala para editar.");
             return;
         }
 
-        await _firebaseService.UpdateDataAsync("cinemas", SelectedCinema.CinemaId, SelectedCinema);
-        LoadCinemas(); // Recargar la lista de salas
+        await _firebaseService.UpdateDataAsync("cinemas", SelectedCinema.Id, SelectedCinema);
+        LoadCinemas(); 
     }
 
     // Método para eliminar una sala
@@ -97,7 +98,7 @@ public class CinemasViewModel : INotifyPropertyChanged
 
         try
         {
-            await _firebaseService.DeleteDataAsync("cinemas", SelectedCinema.CinemaId);
+            await _firebaseService.DeleteDataAsync<Cinema>("cinemas", SelectedCinema.Id); // Especificar el tipo <Cinema>
             LoadCinemas(); // Recargar la lista de salas
         }
         catch (Exception ex)
