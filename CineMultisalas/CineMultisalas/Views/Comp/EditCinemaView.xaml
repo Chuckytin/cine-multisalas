@@ -1,0 +1,20 @@
+﻿<Window x:Class="CineMultisalas.Views.Comp.EditCinemaView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Editar Sala" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel>
+            <!-- Nombre de la sala -->
+            <Label Content="Nombre:" />
+            <TextBox x:Name="txtName" Text="{Binding SelectedCinema.Name}" />
+
+            <!-- Capacidad de la sala -->
+            <Label Content="Capacidad:" />
+            <TextBox x:Name="txtCapacity" Text="{Binding SelectedCinema.Capacity}" />
+
+            <!-- Botón Guardar Cambios -->
+            <Button Content="Guardar Cambios" Click="ButtonSave_Click" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

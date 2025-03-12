@@ -16,9 +16,9 @@
 
         <!-- Botones de acciones -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
-            <Button Content="Añadir Función" Command="{Binding AddFunctionCommand}" Width="120" Margin="5" />
-            <Button Content="Editar Función" Command="{Binding EditFunctionCommand}" Width="120" Margin="5" />
-            <Button Content="Eliminar Función" Command="{Binding DeleteFunctionCommand}" Width="120" Margin="5" />
+            <Button Content="Añadir Función" Click="ButtonAddFunction_Click" Width="120" Margin="5" />
+            <Button Content="Editar Función" Click="ButtonEditFunction_Click" Width="120" Margin="5" />
+            <Button Content="Eliminar Función" Click="ButtonDeleteFunction_Click" Width="120" Margin="5" />
         </StackPanel>
     </Grid>
 </Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="CineMultisalas.Views.Comp.DeleteCinemaView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Eliminar Sala" Height="200" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="¿Estás seguro de que deseas eliminar esta sala?" 
+                       TextWrapping="Wrap" Margin="0,10" />
+            <Button Content="Eliminar" Click="ButtonDelete_Click" Margin="0,10" />
+            <Button Content="Cancelar" Click="ButtonCancel_Click" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

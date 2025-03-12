@@ -4,9 +4,10 @@ using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows;
 using System.Windows.Input;
 
-internal class FunctionsViewModel : INotifyPropertyChanged
+public class FunctionsViewModel : INotifyPropertyChanged
 {
     private ObservableCollection<Function> _functions;
     private readonly FirebaseService _firebaseService;
@@ -46,7 +47,7 @@ internal class FunctionsViewModel : INotifyPropertyChanged
         LoadFunctions(); // Cargar las funciones al iniciar
 
         // Asignar métodos a los comandos
-        AddFunctionCommand = new RelayCommand(OnAddFunction);
+        AddFunctionCommand = new RelayCommand<Function>(OnAddFunction);
         EditFunctionCommand = new RelayCommand(OnEditFunction);
         DeleteFunctionCommand = new RelayCommand(OnDeleteFunction);
     }
@@ -59,17 +60,15 @@ internal class FunctionsViewModel : INotifyPropertyChanged
     }
 
     // Método para añadir una nueva función
-    public async void OnAddFunction()
+    public async void OnAddFunction(Function newFunction)
     {
-        var newFunction = new Function
+        if (newFunction == null)
         {
-            FunctionId = Functions.Count + 1, // Generar un ID único
-            FilmId = 1, // Ejemplo: ID de la película
-            CinemaId = 1, // Ejemplo: ID de la sala
-            StartTime = DateTime.Now, // Ejemplo: Hora de inicio
-            EndTime = DateTime.Now.AddHours(2) // Ejemplo: Hora de finalización
-        };
+            MessageBox.Show("Error: La función no puede ser nula.");
+            return;
+        }
 
+        newFunction.FunctionId = Functions.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("functions", newFunction);
         LoadFunctions(); // Recargar la lista de funciones
     }
@@ -77,20 +76,33 @@ internal class FunctionsViewModel : INotifyPropertyChanged
     // Método para editar una función existente
     public async void OnEditFunction()
     {
-        if (SelectedFunction != null)
+        if (SelectedFunction == null)
         {
-            await _firebaseService.UpdateDataAsync("functions", SelectedFunction.FunctionId, SelectedFunction);
-            LoadFunctions(); // Recargar la lista de funciones
+            MessageBox.Show("Por favor, selecciona una función para editar.");
+            return;
         }
+
+        await _firebaseService.UpdateDataAsync("functions", SelectedFunction.FunctionId, SelectedFunction);
+        LoadFunctions(); // Recargar la lista de funciones
     }
 
     // Método para eliminar una función
     public async void OnDeleteFunction()
     {
-        if (SelectedFunction != null)
+        if (SelectedFunction == null)
+        {
+            MessageBox.Show("Por favor, selecciona una función para eliminar.");
+            return;
+        }
+
+        try
         {
             await _firebaseService.DeleteDataAsync("functions", SelectedFunction.FunctionId);
             LoadFunctions(); // Recargar la lista de funciones
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error al eliminar la función: {ex.Message}");
         }
     }
 

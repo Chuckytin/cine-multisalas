@@ -15,9 +15,9 @@
 
         <!-- Botones de acciones -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
-            <Button Content="Añadir Sala" Command="{Binding AddCinemaCommand}" Width="100" Margin="5" />
-            <Button Content="Editar Sala" Command="{Binding EditCinemaCommand}" Width="100" Margin="5" />
-            <Button Content="Eliminar Sala" Command="{Binding DeleteCinemaCommand}" Width="100" Margin="5" />
+            <Button Content="Añadir Sala" Click="ButtonAddCinema_Click" Width="100" Margin="5" />
+            <Button Content="Editar Sala" Click="ButtonEditCinema_Click" Width="100" Margin="5" />
+            <Button Content="Eliminar Sala" Click="ButtonDeleteCinema_Click" Width="100" Margin="5" />
         </StackPanel>
     </Grid>
 </Window>

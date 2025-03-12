@@ -287,14 +287,41 @@
     <Compile Include="ViewModels\FilmsViewModel.cs" />
     <Compile Include="ViewModels\ReservationsViewModel.cs" />
     <Compile Include="ViewModels\CinemasViewModel.cs" />
+    <Compile Include="Views\Comp\AddCinemaView.xaml.cs">
+      <DependentUpon>AddCinemaView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Comp\AddFilmView.xaml.cs">
       <DependentUpon>AddFilmView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\AddFunctionView.xaml.cs">
+      <DependentUpon>AddFunctionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\AddReservationView.xaml.cs">
+      <DependentUpon>AddReservationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\DeleteCinemaView.xaml.cs">
+      <DependentUpon>DeleteCinemaView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Comp\DeleteFilmView.xaml.cs">
       <DependentUpon>DeleteFilmView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Comp\DeleteFunctionView.xaml.cs">
+      <DependentUpon>DeleteFunctionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\DeleteReservationView.xaml.cs">
+      <DependentUpon>DeleteReservationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\EditCinemaView.xaml.cs">
+      <DependentUpon>EditCinemaView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Comp\EditFilmView.xaml.cs">
       <DependentUpon>EditFilmView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\EditFunctionView.xaml.cs">
+      <DependentUpon>EditFunctionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Comp\EditReservationView.xaml.cs">
+      <DependentUpon>EditReservationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FunctionsView.xaml.cs">
       <DependentUpon>FunctionsView.xaml</DependentUpon>
@@ -330,7 +357,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Comp\AddCinemaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Comp\AddFilmView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\AddFunctionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\AddReservationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\DeleteCinemaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -338,7 +381,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Comp\DeleteFunctionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\DeleteReservationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\EditCinemaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Comp\EditFilmView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\EditFunctionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Comp\EditReservationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

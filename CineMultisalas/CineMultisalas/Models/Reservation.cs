@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CineMultisalas.Models
 {
-    internal class Reservation
+    public class Reservation
     {
         public int ReservationId { get; set; }
         public int UserId { get; set; } // FK a User

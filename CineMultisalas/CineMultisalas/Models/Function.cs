@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CineMultisalas.Models
 {
-    internal class Function
+    public class Function
     {
 
         public int FunctionId { get; set; }

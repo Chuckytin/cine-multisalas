@@ -1,0 +1,28 @@
+﻿<Window x:Class="CineMultisalas.Views.Comp.AddFunctionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Añadir Función" Height="400" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel>
+            <!-- Película -->
+            <Label Content="Película:" />
+            <ComboBox x:Name="cmbFilm" DisplayMemberPath="Title" />
+
+            <!-- Sala -->
+            <Label Content="Sala:" />
+            <ComboBox x:Name="cmbCinema" DisplayMemberPath="Name" />
+
+            <!-- Hora de inicio -->
+            <Label Content="Hora de inicio:" />
+            <DatePicker x:Name="dpStartTime" />
+
+            <!-- Hora de fin -->
+            <Label Content="Hora de fin:" />
+            <DatePicker x:Name="dpEndTime" />
+
+            <!-- Botón Guardar -->
+            <Button Content="Guardar" Click="ButtonSave_Click" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

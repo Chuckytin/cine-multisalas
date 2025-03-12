@@ -1,0 +1,20 @@
+﻿<Window x:Class="CineMultisalas.Views.Comp.EditReservationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Editar Reserva" Height="400" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <StackPanel>
+            <!-- Función -->
+            <Label Content="Función:" />
+            <ComboBox x:Name="cmbFunction" DisplayMemberPath="StartTime" SelectedValue="{Binding SelectedReservation.FunctionId}" />
+
+            <!-- Número de asientos -->
+            <Label Content="Número de asientos:" />
+            <TextBox x:Name="txtSeats" Text="{Binding SelectedReservation.Seats}" />
+
+            <!-- Botón Guardar Cambios -->
+            <Button Content="Guardar Cambios" Click="ButtonSave_Click" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,11 +1,13 @@
 ﻿using CineMultisalas.Models;
 using CineMultisalas.Services;
 using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows;
 using System.Windows.Input;
 
-internal class CinemasViewModel : INotifyPropertyChanged
+public class CinemasViewModel : INotifyPropertyChanged
 {
     private ObservableCollection<Cinema> _cinemas;
     private readonly FirebaseService _firebaseService;
@@ -45,7 +47,7 @@ internal class CinemasViewModel : INotifyPropertyChanged
         LoadCinemas(); // Cargar las salas al iniciar
 
         // Asignar métodos a los comandos
-        AddCinemaCommand = new RelayCommand(OnAddCinema);
+        AddCinemaCommand = new RelayCommand<Cinema>(OnAddCinema);
         EditCinemaCommand = new RelayCommand(OnEditCinema);
         DeleteCinemaCommand = new RelayCommand(OnDeleteCinema);
     }
@@ -58,15 +60,15 @@ internal class CinemasViewModel : INotifyPropertyChanged
     }
 
     // Método para añadir una nueva sala
-    public async void OnAddCinema()
+    public async void OnAddCinema(Cinema newCinema)
     {
-        var newCinema = new Cinema
+        if (newCinema == null)
         {
-            CinemaId = Cinemas.Count + 1, // Generar un ID único
-            Name = "Nueva Sala",
-            Capacity = 100
-        };
+            MessageBox.Show("Error: La sala no puede ser nula.");
+            return;
+        }
 
+        newCinema.CinemaId = Cinemas.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("cinemas", newCinema);
         LoadCinemas(); // Recargar la lista de salas
     }
@@ -74,20 +76,33 @@ internal class CinemasViewModel : INotifyPropertyChanged
     // Método para editar una sala existente
     public async void OnEditCinema()
     {
-        if (SelectedCinema != null)
+        if (SelectedCinema == null)
         {
-            await _firebaseService.UpdateDataAsync("cinemas", SelectedCinema.CinemaId, SelectedCinema);
-            LoadCinemas(); // Recargar la lista de salas
+            MessageBox.Show("Por favor, selecciona una sala para editar.");
+            return;
         }
+
+        await _firebaseService.UpdateDataAsync("cinemas", SelectedCinema.CinemaId, SelectedCinema);
+        LoadCinemas(); // Recargar la lista de salas
     }
 
     // Método para eliminar una sala
     public async void OnDeleteCinema()
     {
-        if (SelectedCinema != null)
+        if (SelectedCinema == null)
+        {
+            MessageBox.Show("Por favor, selecciona una sala para eliminar.");
+            return;
+        }
+
+        try
         {
             await _firebaseService.DeleteDataAsync("cinemas", SelectedCinema.CinemaId);
             LoadCinemas(); // Recargar la lista de salas
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error al eliminar la sala: {ex.Message}");
         }
     }
 

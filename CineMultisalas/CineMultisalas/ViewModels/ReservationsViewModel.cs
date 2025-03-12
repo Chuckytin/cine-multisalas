@@ -1,11 +1,13 @@
 ﻿using CineMultisalas.Models;
 using CineMultisalas.Services;
 using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows;
 using System.Windows.Input;
 
-internal class ReservationsViewModel : INotifyPropertyChanged
+public class ReservationsViewModel : INotifyPropertyChanged
 {
     private ObservableCollection<Reservation> _reservations;
     private readonly FirebaseService _firebaseService;
@@ -45,7 +47,7 @@ internal class ReservationsViewModel : INotifyPropertyChanged
         LoadReservations(); // Cargar las reservas al iniciar
 
         // Asignar métodos a los comandos
-        AddReservationCommand = new RelayCommand(OnAddReservation);
+        AddReservationCommand = new RelayCommand<Reservation>(OnAddReservation);
         EditReservationCommand = new RelayCommand(OnEditReservation);
         DeleteReservationCommand = new RelayCommand(OnDeleteReservation);
     }
@@ -58,16 +60,15 @@ internal class ReservationsViewModel : INotifyPropertyChanged
     }
 
     // Método para añadir una nueva reserva
-    public async void OnAddReservation()
+    public async void OnAddReservation(Reservation newReservation)
     {
-        var newReservation = new Reservation
+        if (newReservation == null)
         {
-            ReservationId = Reservations.Count + 1, // Generar un ID único
-            UserId = 1, // Ejemplo: ID del usuario
-            FunctionId = 1, // Ejemplo: ID de la función
-            Seats = 2 // Ejemplo: Número de asientos
-        };
+            MessageBox.Show("Error: La reserva no puede ser nula.");
+            return;
+        }
 
+        newReservation.ReservationId = Reservations.Count + 1; // Generar un ID único
         await _firebaseService.AddDataAsync("reservations", newReservation);
         LoadReservations(); // Recargar la lista de reservas
     }
@@ -75,20 +76,33 @@ internal class ReservationsViewModel : INotifyPropertyChanged
     // Método para editar una reserva existente
     public async void OnEditReservation()
     {
-        if (SelectedReservation != null)
+        if (SelectedReservation == null)
         {
-            await _firebaseService.UpdateDataAsync("reservations", SelectedReservation.ReservationId, SelectedReservation);
-            LoadReservations(); // Recargar la lista de reservas
+            MessageBox.Show("Por favor, selecciona una reserva para editar.");
+            return;
         }
+
+        await _firebaseService.UpdateDataAsync("reservations", SelectedReservation.ReservationId, SelectedReservation);
+        LoadReservations(); // Recargar la lista de reservas
     }
 
     // Método para eliminar una reserva
     public async void OnDeleteReservation()
     {
-        if (SelectedReservation != null)
+        if (SelectedReservation == null)
+        {
+            MessageBox.Show("Por favor, selecciona una reserva para eliminar.");
+            return;
+        }
+
+        try
         {
             await _firebaseService.DeleteDataAsync("reservations", SelectedReservation.ReservationId);
             LoadReservations(); // Recargar la lista de reservas
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error al eliminar la reserva: {ex.Message}");
         }
     }
 

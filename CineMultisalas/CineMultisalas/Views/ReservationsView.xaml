@@ -15,9 +15,9 @@
 
         <!-- Botones de acciones -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
-            <Button Content="Añadir Reserva" Command="{Binding AddReservationCommand}" Width="120" Margin="5" />
-            <Button Content="Editar Reserva" Command="{Binding EditReservationCommand}" Width="120" Margin="5" />
-            <Button Content="Eliminar Reserva" Command="{Binding DeleteReservationCommand}" Width="120" Margin="5" />
+            <Button Content="Añadir Reserva" Click="ButtonAddReservation_Click" Width="120" Margin="5" />
+            <Button Content="Editar Reserva" Click="ButtonEditReservation_Click" Width="120" Margin="5" />
+            <Button Content="Eliminar Reserva" Click="ButtonDeleteReservation_Click" Width="120" Margin="5" />
         </StackPanel>
     </Grid>
 </Window>
