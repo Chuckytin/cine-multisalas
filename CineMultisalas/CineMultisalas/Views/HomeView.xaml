@@ -20,7 +20,7 @@
             <Button Content="Películas" Command="{Binding NavigateToFilmsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
             <Button Content="Salas" Command="{Binding NavigateToCinemasCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
             <Button Content="Funciones" Command="{Binding NavigateToFunctionsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
-            <Button Content="Reservas" Command="{Binding NavigateToReservationsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
+            <Button Content="Ver Reservas" Command="{Binding NavigateToReservationsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
         </StackPanel>
         
         <!-- Botón de ayuda -->

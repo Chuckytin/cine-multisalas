@@ -1,51 +1,48 @@
-﻿using CommunityToolkit.Mvvm.Input;
-using CineMultisalas.Views;
+﻿using CineMultisalas.Views;
+using CommunityToolkit.Mvvm.Input;
 using System.Windows.Input;
 
-namespace CineMultisalas.ViewModels
+public class HomeViewModel
 {
-    internal class HomeViewModel
+    private readonly bool _isAdmin;
+
+    // Comandos para navegar a las diferentes vistas
+    public ICommand NavigateToFilmsCommand { get; }
+    public ICommand NavigateToCinemasCommand { get; }
+    public ICommand NavigateToFunctionsCommand { get; }
+    public ICommand NavigateToReservationsCommand { get; }
+
+    public HomeViewModel(bool isAdmin)
     {
-        private readonly bool _isAdmin;
+        _isAdmin = isAdmin;
 
-        // Comandos para navegar a las diferentes vistas
-        public ICommand NavigateToFilmsCommand { get; }
-        public ICommand NavigateToCinemasCommand { get; }
-        public ICommand NavigateToFunctionsCommand { get; }
-        public ICommand NavigateToReservationsCommand { get; }
+        NavigateToFilmsCommand = new RelayCommand(NavigateToFilms);
+        NavigateToCinemasCommand = new RelayCommand(NavigateToCinemas);
+        NavigateToFunctionsCommand = new RelayCommand(NavigateToFunctions);
+        NavigateToReservationsCommand = new RelayCommand<int>(NavigateToReservations); 
+    }
 
-        public HomeViewModel(bool isAdmin)
-        {
-            _isAdmin = isAdmin;
+    private void NavigateToFilms()
+    {
+        var filmsView = new FilmsView();
+        filmsView.Show();
+    }
 
-            NavigateToFilmsCommand = new RelayCommand(NavigateToFilms);
-            NavigateToCinemasCommand = new RelayCommand(NavigateToCinemas);
-            NavigateToFunctionsCommand = new RelayCommand(NavigateToFunctions);
-            NavigateToReservationsCommand = new RelayCommand(NavigateToReservations);
-        }
+    private void NavigateToCinemas()
+    {
+        var cinemasView = new CinemasView();
+        cinemasView.Show();
+    }
 
-        private void NavigateToFilms()
-        {
-            var filmsView = new FilmsView();
-            filmsView.Show();
-        }
+    private void NavigateToFunctions()
+    {
+        var functionsView = new FunctionsView(_isAdmin);
+        functionsView.Show();
+    }
 
-        private void NavigateToCinemas()
-        {
-            var cinemasView = new CinemasView();
-            cinemasView.Show();
-        }
-
-        private void NavigateToFunctions()
-        {
-            var functionsView = new FunctionsView(_isAdmin);
-            functionsView.Show();
-        }
-
-        private void NavigateToReservations()
-        {
-            var reservationsView = new ReservationsView();
-            reservationsView.Show();
-        }
+    public void NavigateToReservations(int functionId) // Cambiar a público
+    {
+        var reservationsView = new ReservationsView(functionId);
+        reservationsView.Show();
     }
 }

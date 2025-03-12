@@ -1,4 +1,5 @@
 ﻿using CineMultisalas.Models;
+using CineMultisalas.Services;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -8,19 +9,22 @@ namespace CineMultisalas.ViewModels
     public class SelectSeatsViewModel : INotifyPropertyChanged
     {
         private readonly int _capacity;
-        private readonly int _rows;
+        private readonly int _functionId;
+        private readonly FirebaseService _firebaseService;
 
         public ObservableCollection<Seat> Seats { get; set; }
-        public int Rows => _rows;
+        public int Rows => CalculateRows(_capacity);
 
-        public SelectSeatsViewModel(int capacity)
+        public SelectSeatsViewModel(int capacity, int functionId)
         {
             _capacity = capacity;
-            _rows = CalculateRows(capacity); // Calcular el número de filas
+            _functionId = functionId;
+            _firebaseService = new FirebaseService();
             Seats = GenerateSeats(); // Generar los asientos
+            LoadReservedSeats(); // Cargar los asientos reservados
         }
 
-        // Calcular el número de filas (6 filas por defecto, más una fila adicional si hay resto)
+        // Calcular el número de filas
         private int CalculateRows(int capacity)
         {
             int seatsPerRow = 7; // Asientos por fila
@@ -35,9 +39,24 @@ namespace CineMultisalas.ViewModels
             var seats = new ObservableCollection<Seat>();
             for (int i = 1; i <= _capacity; i++)
             {
-                seats.Add(new Seat { SeatNumber = i });
+                seats.Add(new Seat { SeatNumber = i, IsAvailable = true });
             }
             return seats;
+        }
+
+        // Cargar los asientos reservados
+        private async void LoadReservedSeats()
+        {
+            var reservations = await _firebaseService.GetDataAsync<Reservation>("reservations");
+            var reservedSeats = reservations
+                .Where(r => r.FunctionId == _functionId)
+                .SelectMany(r => r.SelectedSeats)
+                .ToList();
+
+            foreach (var seat in Seats)
+            {
+                seat.IsAvailable = !reservedSeats.Contains(seat.SeatNumber);
+            }
         }
 
         // Obtener los asientos seleccionados

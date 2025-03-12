@@ -3,29 +3,43 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Funciones" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
-    <Grid Margin="10">
-        <!-- DataGrid para mostrar las funciones -->
-        <DataGrid ItemsSource="{Binding Functions}" 
-                  AutoGenerateColumns="False" 
-                  Margin="0,0,0,50"
-                  SelectedItem="{Binding SelectedFunction, Mode=TwoWay}">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Película" Binding="{Binding FilmTitle}" Width="*" />
-                <DataGridTextColumn Header="Sala" Binding="{Binding CinemaName}" Width="*" />
-                <DataGridTextColumn Header="Fecha" Binding="{Binding StartTime, StringFormat=d}" Width="*" />
-                <DataGridTextColumn Header="Hora de inicio" Binding="{Binding StartTime, StringFormat=HH:mm}" Width="*" />
-            </DataGrid.Columns>
-        </DataGrid>
+    <Grid>
+        <!-- Menú superior -->
+        <Menu VerticalAlignment="Top" Background="#FF0078D7">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Cerrar sesión" Click="MenuItemLogout_Click"/>
+            </MenuItem>
+            <MenuItem Header="Ayuda">
+                <MenuItem Header="Mostrar ayuda" Click="MenuItemHelp_Click"/>
+            </MenuItem>
+        </Menu>
 
-        <!-- Botones de acciones -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
-            <!-- Botones visibles solo para admin -->
-            <Button x:Name="btnAddFunction" Content="Añadir Función" Click="ButtonAddFunction_Click" Width="120" Margin="5"/>
-            <Button x:Name="btnEditFunction" Content="Editar Función" Click="ButtonEditFunction_Click" Width="120" Margin="5"/>
-            <Button x:Name="btnDeleteFunction" Content="Eliminar Función" Click="ButtonDeleteFunction_Click" Width="120" Margin="5"/>
+        <!-- Contenido principal -->
+        <Grid Margin="21">
+            <!-- DataGrid para mostrar las funciones -->
+            <DataGrid ItemsSource="{Binding Functions}" 
+              AutoGenerateColumns="False" 
+              Margin="0,0,0,50"
+              SelectedItem="{Binding SelectedFunction, Mode=TwoWay}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Película" Binding="{Binding FilmTitle}" Width="*" />
+                    <DataGridTextColumn Header="Sala" Binding="{Binding CinemaName}" Width="*" />
+                    <DataGridTextColumn Header="Fecha" Binding="{Binding StartTime, StringFormat=d}" Width="*" />
+                    <DataGridTextColumn Header="Hora de inicio" Binding="{Binding StartTime, StringFormat=HH:mm}" Width="*" />
+                </DataGrid.Columns>
+            </DataGrid>
 
-            <!-- Botón para seleccionar asientos (visible solo para user) -->
-            <Button x:Name="btnSelectSeats" Content="Seleccionar Asientos" Click="ButtonSelectSeats_Click" Width="120" Margin="5"/>
-        </StackPanel>
+            <!-- Botones de acciones -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
+                <!-- Botones visibles solo para admin -->
+                <Button x:Name="btnAddFunction" Content="Añadir Función" Click="ButtonAddFunction_Click" Width="120" Margin="5"/>
+                <Button x:Name="btnEditFunction" Content="Editar Función" Click="ButtonEditFunction_Click" Width="120" Margin="5"/>
+                <Button x:Name="btnDeleteFunction" Content="Eliminar Función" Click="ButtonDeleteFunction_Click" Width="120" Margin="5"/>
+
+                <!-- Botón para seleccionar asientos (visible solo para user) -->
+                <Button x:Name="btnSelectSeats" Content="Seleccionar Asientos" Click="ButtonSelectSeats_Click" Width="120" Margin="5"/>
+            </StackPanel>
+        </Grid>
     </Grid>
+    
 </Window>

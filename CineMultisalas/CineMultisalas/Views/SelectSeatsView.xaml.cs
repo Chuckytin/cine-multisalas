@@ -10,7 +10,7 @@ namespace CineMultisalas.Views
         public SelectSeatsView(Function selectedFunction)
         {
             InitializeComponent();
-            DataContext = new SelectSeatsViewModel(selectedFunction.Cinema.Capacity);
+            DataContext = new SelectSeatsViewModel(selectedFunction.Cinema.Capacity, selectedFunction.Id);
         }
 
         private void ButtonConfirm_Click(object sender, RoutedEventArgs e)

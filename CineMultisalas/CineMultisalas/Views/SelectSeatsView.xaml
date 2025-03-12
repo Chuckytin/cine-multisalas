@@ -19,7 +19,8 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <CheckBox Content="{Binding SeatNumber}" Margin="5"
-                                  IsChecked="{Binding IsSelected}"/>
+                                  IsChecked="{Binding IsSelected}"
+                                  IsEnabled="{Binding IsAvailable}"/>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

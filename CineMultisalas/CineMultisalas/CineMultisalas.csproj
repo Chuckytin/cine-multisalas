@@ -279,6 +279,7 @@
     </ApplicationDefinition>
     <Compile Include="Helpers\BooleanToVisibilityConverter.cs" />
     <Compile Include="Helpers\ContextualHelps.cs" />
+    <Compile Include="Helpers\SeatsConverter.cs" />
     <Compile Include="Helpers\Validations.cs" />
     <Compile Include="Models\Seat.cs" />
     <Compile Include="Services\AuthService.cs" />
@@ -299,9 +300,6 @@
     <Compile Include="Views\Comp\AddFunctionView.xaml.cs">
       <DependentUpon>AddFunctionView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Comp\AddReservationView.xaml.cs">
-      <DependentUpon>AddReservationView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Comp\DeleteCinemaView.xaml.cs">
       <DependentUpon>DeleteCinemaView.xaml</DependentUpon>
     </Compile>
@@ -311,9 +309,6 @@
     <Compile Include="Views\Comp\DeleteFunctionView.xaml.cs">
       <DependentUpon>DeleteFunctionView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Comp\DeleteReservationView.xaml.cs">
-      <DependentUpon>DeleteReservationView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Comp\EditCinemaView.xaml.cs">
       <DependentUpon>EditCinemaView.xaml</DependentUpon>
     </Compile>
@@ -322,9 +317,6 @@
     </Compile>
     <Compile Include="Views\Comp\EditFunctionView.xaml.cs">
       <DependentUpon>EditFunctionView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Comp\EditReservationView.xaml.cs">
-      <DependentUpon>EditReservationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\FunctionsView.xaml.cs">
       <DependentUpon>FunctionsView.xaml</DependentUpon>
@@ -375,10 +367,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Comp\AddReservationView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\Comp\DeleteCinemaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -391,10 +379,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Comp\DeleteReservationView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\Comp\EditCinemaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -404,10 +388,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Comp\EditFunctionView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Comp\EditReservationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

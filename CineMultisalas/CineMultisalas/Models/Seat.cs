@@ -10,9 +10,9 @@ namespace CineMultisalas.Models
     public class Seat : INotifyPropertyChanged
     {
         private bool _isSelected;
+        private bool _isAvailable;
 
         public int SeatNumber { get; set; } // Número del asiento
-
         public bool IsSelected
         {
             get => _isSelected;
@@ -20,6 +20,15 @@ namespace CineMultisalas.Models
             {
                 _isSelected = value;
                 OnPropertyChanged(nameof(IsSelected));
+            }
+        }
+        public bool IsAvailable
+        {
+            get => _isAvailable;
+            set
+            {
+                _isAvailable = value;
+                OnPropertyChanged(nameof(IsAvailable));
             }
         }
 

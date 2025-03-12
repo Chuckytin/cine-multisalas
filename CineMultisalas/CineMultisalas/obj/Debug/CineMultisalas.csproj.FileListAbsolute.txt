@@ -176,14 +176,8 @@ F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\ob
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditCinemaView.g.cs
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditFunctionView.baml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditFunctionView.g.cs
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\AddReservationView.baml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteFunctionView.baml
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\AddReservationView.g.cs
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteFunctionView.g.cs
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteReservationView.baml
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditReservationView.baml
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteReservationView.g.cs
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditReservationView.g.cs
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\SelectSeatsView.g.cs
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\SelectSeatsView.baml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\GeneratedInternalTypeHelper.g.cs

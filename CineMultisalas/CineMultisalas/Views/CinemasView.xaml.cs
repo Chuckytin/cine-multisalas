@@ -46,10 +46,19 @@ namespace CineMultisalas.Views
             deleteCinemaView.ShowDialog();
         }
 
-        private void ButtonHelp_Click(object sender, RoutedEventArgs e)
+        private void MenuItemLogout_Click(object sender, RoutedEventArgs e)
+        {
+            // Cierra sesión y vuelve a la ventana de login
+            var loginView = new LoginView();
+            loginView.Show();
+            this.Close();
+        }
+
+        private void MenuItemHelp_Click(object sender, RoutedEventArgs e)
         {
             string helpMessage = ContextualHelps.GetHelp("CinemasView");
             MessageBox.Show(helpMessage, "Ayuda Contextual", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+        
     }
 }
