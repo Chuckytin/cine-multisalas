@@ -5,7 +5,10 @@
         WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <!-- DataGrid para mostrar las reservas -->
-        <DataGrid ItemsSource="{Binding Reservations}" AutoGenerateColumns="False" Margin="0,0,0,50">
+        <DataGrid ItemsSource="{Binding Reservations}" 
+            AutoGenerateColumns="False" 
+            Margin="0,0,0,50"
+            SelectedItem="{Binding SelectedReservation, Mode=TwoWay}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Usuario" Binding="{Binding UserId}" Width="*" />
                 <DataGridTextColumn Header="Función" Binding="{Binding FunctionId}" Width="*" />

@@ -7,19 +7,32 @@
         <StackPanel>
             <!-- Película -->
             <Label Content="Película:" />
-            <ComboBox x:Name="cmbFilm" DisplayMemberPath="Title" />
+            <ComboBox x:Name="cmbFilm" 
+                      DisplayMemberPath="Title" 
+                      ItemsSource="{Binding Films}" 
+                      SelectedValuePath="Id" />
 
             <!-- Sala -->
             <Label Content="Sala:" />
-            <ComboBox x:Name="cmbCinema" DisplayMemberPath="Name" />
+            <ComboBox x:Name="cmbCinema" 
+                      DisplayMemberPath="Name" 
+                      ItemsSource="{Binding Cinemas}" 
+                      SelectedValuePath="Id" />
+
+            <!-- Fecha -->
+            <Label Content="Fecha:" />
+            <DatePicker x:Name="dpDate" />
 
             <!-- Hora de inicio -->
-            <Label Content="Hora de inicio:" />
-            <DatePicker x:Name="dpStartTime" />
-
-            <!-- Hora de fin -->
-            <Label Content="Hora de fin:" />
-            <DatePicker x:Name="dpEndTime" />
+            <Label Content="Hora de inicio (HH:mm):" />
+            <ComboBox x:Name="cmbStartTime">
+                <ComboBoxItem Content="17:00" />
+                <ComboBoxItem Content="18:00" />
+                <ComboBoxItem Content="19:00" />
+                <ComboBoxItem Content="20:00" />
+                <ComboBoxItem Content="21:00" />
+                <ComboBoxItem Content="22:00" />
+            </ComboBox>
 
             <!-- Botón Guardar -->
             <Button Content="Guardar" Click="ButtonSave_Click" Margin="0,10" />

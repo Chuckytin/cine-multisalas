@@ -5,12 +5,15 @@
         WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <!-- DataGrid para mostrar las funciones -->
-        <DataGrid ItemsSource="{Binding Functions}" AutoGenerateColumns="False" Margin="0,0,0,50">
+        <DataGrid ItemsSource="{Binding Functions}" 
+                  AutoGenerateColumns="False" 
+                  Margin="0,0,0,50"
+                  SelectedItem="{Binding SelectedFunction, Mode=TwoWay}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Película" Binding="{Binding FilmId}" Width="*" />
-                <DataGridTextColumn Header="Sala" Binding="{Binding CinemaId}" Width="*" />
-                <DataGridTextColumn Header="Hora de Inicio" Binding="{Binding StartTime}" Width="*" />
-                <DataGridTextColumn Header="Hora de Fin" Binding="{Binding EndTime}" Width="*" />
+                <DataGridTextColumn Header="Película" Binding="{Binding FilmTitle}" Width="*" />
+                <DataGridTextColumn Header="Sala" Binding="{Binding CinemaName}" Width="*" />
+                <DataGridTextColumn Header="Fecha" Binding="{Binding StartTime, StringFormat=d}" Width="*" />
+                <DataGridTextColumn Header="Hora de inicio" Binding="{Binding StartTime, StringFormat=HH:mm}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
 

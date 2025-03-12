@@ -1,4 +1,5 @@
 ﻿using CineMultisalas.ViewModels;
+using System;
 using System.Windows;
 
 namespace CineMultisalas.Views.Comp
@@ -16,8 +17,29 @@ namespace CineMultisalas.Views.Comp
 
         private void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
-            _viewModel.OnEditFunction(); // Llama al método en el ViewModel
-            this.Close(); // Cierra la ventana
+            // Validar que todos los campos estén completos
+            if (cmbFilm.SelectedItem == null || cmbCinema.SelectedItem == null ||
+                dpDate.SelectedDate == null || string.IsNullOrEmpty(cmbStartTime.Text))
+            {
+                MessageBox.Show("Por favor, completa todos los campos.");
+                return;
+            }
+
+            // Validar el formato de la hora (HH:mm)
+            if (!TimeSpan.TryParse(cmbStartTime.Text, out var startTime))
+            {
+                MessageBox.Show("Formato de hora incorrecto. Usa el formato HH:mm.");
+                return;
+            }
+
+            // Actualizar la función seleccionada
+            _viewModel.SelectedFunction.StartTime = dpDate.SelectedDate.Value + startTime;
+
+            // Guardar los cambios
+            _viewModel.OnEditFunction();
+
+            // Cerrar la ventana
+            this.Close();
         }
     }
 }

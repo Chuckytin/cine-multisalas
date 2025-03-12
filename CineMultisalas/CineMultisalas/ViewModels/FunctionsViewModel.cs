@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Input;
+using System.Linq;
 
 public class FunctionsViewModel : INotifyPropertyChanged
 {
@@ -20,9 +21,15 @@ public class FunctionsViewModel : INotifyPropertyChanged
         set
         {
             _functions = value;
-            OnPropertyChanged(nameof(Functions)); // Notificar cambios en la propiedad
+            OnPropertyChanged(nameof(Functions));
         }
     }
+
+    // Propiedad para la lista de películas
+    public ObservableCollection<Film> Films { get; set; }
+
+    // Propiedad para la lista de salas
+    public ObservableCollection<Cinema> Cinemas { get; set; }
 
     // Propiedad para la función seleccionada
     public Function SelectedFunction
@@ -31,7 +38,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
         set
         {
             _selectedFunction = value;
-            OnPropertyChanged(nameof(SelectedFunction)); // Notificar cambios en la propiedad
+            OnPropertyChanged(nameof(SelectedFunction));
         }
     }
 
@@ -44,7 +51,12 @@ public class FunctionsViewModel : INotifyPropertyChanged
     {
         _firebaseService = new FirebaseService();
         Functions = new ObservableCollection<Function>();
+        Films = new ObservableCollection<Film>();
+        Cinemas = new ObservableCollection<Cinema>();
+
         LoadFunctions(); // Cargar las funciones al iniciar
+        LoadFilms();     // Cargar las películas al iniciar
+        LoadCinemas();   // Cargar las salas al iniciar
 
         // Asignar métodos a los comandos
         AddFunctionCommand = new RelayCommand<Function>(OnAddFunction);
@@ -56,7 +68,31 @@ public class FunctionsViewModel : INotifyPropertyChanged
     private async void LoadFunctions()
     {
         var functions = await _firebaseService.GetDataAsync<Function>("functions");
+        var films = await _firebaseService.GetDataAsync<Film>("films");
+        var cinemas = await _firebaseService.GetDataAsync<Cinema>("cinemas");
+
+        // Asignar el título de la película y el nombre de la sala a cada función
+        foreach (var function in functions)
+        {
+            function.FilmTitle = films.FirstOrDefault(f => f.Id == function.FilmId)?.Title;
+            function.CinemaName = cinemas.FirstOrDefault(c => c.Id == function.CinemaId)?.Name;
+        }
+
         Functions = new ObservableCollection<Function>(functions);
+    }
+
+    // Cargar las películas desde Firebase
+    private async void LoadFilms()
+    {
+        var films = await _firebaseService.GetDataAsync<Film>("films");
+        Films = new ObservableCollection<Film>(films);
+    }
+
+    // Cargar las salas desde Firebase
+    private async void LoadCinemas()
+    {
+        var cinemas = await _firebaseService.GetDataAsync<Cinema>("cinemas");
+        Cinemas = new ObservableCollection<Cinema>(cinemas);
     }
 
     // Método para añadir una nueva función
@@ -97,7 +133,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
 
         try
         {
-            await _firebaseService.DeleteDataAsync<Function>("functions", SelectedFunction.Id); 
+            await _firebaseService.DeleteDataAsync<Function>("functions", SelectedFunction.Id);
             LoadFunctions(); // Recargar la lista de funciones
         }
         catch (Exception ex)

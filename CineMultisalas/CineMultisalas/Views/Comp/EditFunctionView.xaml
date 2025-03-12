@@ -7,19 +7,32 @@
         <StackPanel>
             <!-- Película -->
             <Label Content="Película:" />
-            <ComboBox x:Name="cmbFilm" DisplayMemberPath="Title" SelectedValue="{Binding SelectedFunction.FilmId}" />
+            <ComboBox x:Name="cmbFilm" 
+                      DisplayMemberPath="Title" 
+                      ItemsSource="{Binding Films}" 
+                      SelectedValue="{Binding SelectedFunction.FilmId}" />
 
             <!-- Sala -->
             <Label Content="Sala:" />
-            <ComboBox x:Name="cmbCinema" DisplayMemberPath="Name" SelectedValue="{Binding SelectedFunction.CinemaId}" />
+            <ComboBox x:Name="cmbCinema" 
+                      DisplayMemberPath="Name" 
+                      ItemsSource="{Binding Cinemas}" 
+                      SelectedValue="{Binding SelectedFunction.CinemaId}" />
+
+            <!-- Fecha -->
+            <Label Content="Fecha:" />
+            <DatePicker x:Name="dpDate" SelectedDate="{Binding SelectedFunction.StartTime}" />
 
             <!-- Hora de inicio -->
-            <Label Content="Hora de inicio:" />
-            <DatePicker x:Name="dpStartTime" SelectedDate="{Binding SelectedFunction.StartTime}" />
-
-            <!-- Hora de fin -->
-            <Label Content="Hora de fin:" />
-            <DatePicker x:Name="dpEndTime" SelectedDate="{Binding SelectedFunction.EndTime}" />
+            <Label Content="Hora de inicio (HH:mm):" />
+            <ComboBox x:Name="cmbStartTime">
+                <ComboBoxItem Content="17:00" />
+                <ComboBoxItem Content="18:00" />
+                <ComboBoxItem Content="19:00" />
+                <ComboBoxItem Content="20:00" />
+                <ComboBoxItem Content="21:00" />
+                <ComboBoxItem Content="22:00" />
+            </ComboBox>
 
             <!-- Botón Guardar Cambios -->
             <Button Content="Guardar Cambios" Click="ButtonSave_Click" Margin="0,10" />
