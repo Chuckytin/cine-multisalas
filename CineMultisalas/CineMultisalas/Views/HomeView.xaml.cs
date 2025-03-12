@@ -6,10 +6,11 @@ namespace CineMultisalas.Views
 {
     public partial class HomeView : Window
     {
-        public HomeView()
+
+        public HomeView(bool isAdmin)
         {
             InitializeComponent();
-            DataContext = new HomeViewModel();
+            DataContext = new HomeViewModel(isAdmin); // Pasa el parámetro isAdmin
         }
 
         private void MenuItemLogout_Click(object sender, RoutedEventArgs e)

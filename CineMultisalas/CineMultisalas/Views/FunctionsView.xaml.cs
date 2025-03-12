@@ -7,10 +7,29 @@ namespace CineMultisalas.Views
 {
     public partial class FunctionsView : Window
     {
-        public FunctionsView()
+        public FunctionsView(bool isAdmin)
         {
             InitializeComponent();
-            DataContext = new FunctionsViewModel();
+            DataContext = new FunctionsViewModel(isAdmin);
+
+            // Actualizar la visibilidad de los botones según el rol
+            btnAddFunction.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            btnEditFunction.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            btnDeleteFunction.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            btnSelectSeats.Visibility = isAdmin ? Visibility.Collapsed : Visibility.Visible;
+        }
+
+        private void ButtonSelectSeats_Click(object sender, RoutedEventArgs e)
+        {
+            var viewModel = (FunctionsViewModel)DataContext;
+            if (viewModel.SelectedFunction == null)
+            {
+                MessageBox.Show("Por favor, selecciona una función para ver los asientos.");
+                return;
+            }
+
+            var selectSeatsView = new SelectSeatsView(viewModel.SelectedFunction);
+            selectSeatsView.ShowDialog();
         }
 
         private void ButtonAddFunction_Click(object sender, RoutedEventArgs e)

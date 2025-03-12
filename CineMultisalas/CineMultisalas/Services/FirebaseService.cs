@@ -38,7 +38,7 @@ namespace CineMultisalas.Services
         {
             // Buscar el registro en Firebase por ID
             var items = await _firebase.Child(path).OnceAsync<T>();
-            var itemToUpdate = items.FirstOrDefault(i => (i.Object as dynamic).Id == id); // Usar dynamic para acceder a la propiedad Id
+            var itemToUpdate = items.FirstOrDefault(i => (i.Object as dynamic).Id == id);
 
             if (itemToUpdate != null)
             {
@@ -67,6 +67,21 @@ namespace CineMultisalas.Services
             {
                 throw new ArgumentException("No se encontró el registro con el ID especificado.");
             }
+        }
+
+        public async Task<List<Function>> GetFunctionsAsync()
+        {
+            var functions = await _firebase.Child("functions").OnceAsync<Function>();
+            var cinemas = await _firebase.Child("cinemas").OnceAsync<Cinema>();
+
+            var result = new List<Function>();
+            foreach (var function in functions)
+            {
+                // Asignar la sala (Cinema) correspondiente a la función
+                function.Object.Cinema = cinemas.FirstOrDefault(c => c.Object.Id == function.Object.CinemaId)?.Object;
+                result.Add(function.Object);
+            }
+            return result;
         }
     }
 }

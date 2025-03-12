@@ -13,6 +13,8 @@ public class FunctionsViewModel : INotifyPropertyChanged
     private ObservableCollection<Function> _functions;
     private readonly FirebaseService _firebaseService;
     private Function _selectedFunction;
+    private bool _isAdmin;
+    private bool _isUser;
 
     // Propiedad para la lista de funciones
     public ObservableCollection<Function> Functions
@@ -42,23 +44,45 @@ public class FunctionsViewModel : INotifyPropertyChanged
         }
     }
 
+    public bool IsAdmin
+    {
+        get => _isAdmin;
+        set
+        {
+            _isAdmin = value;
+            OnPropertyChanged(nameof(IsAdmin));
+        }
+    }
+
+    public bool IsUser
+    {
+        get => _isUser;
+        set
+        {
+            _isUser = value;
+            OnPropertyChanged(nameof(IsUser));
+        }
+    }
+
     // Comandos para añadir, editar y eliminar funciones
     public ICommand AddFunctionCommand { get; }
     public ICommand EditFunctionCommand { get; }
     public ICommand DeleteFunctionCommand { get; }
 
-    public FunctionsViewModel()
+    public FunctionsViewModel(bool isAdmin)
     {
         _firebaseService = new FirebaseService();
         Functions = new ObservableCollection<Function>();
         Films = new ObservableCollection<Film>();
         Cinemas = new ObservableCollection<Cinema>();
 
-        LoadFunctions(); // Cargar las funciones al iniciar
-        LoadFilms();     // Cargar las películas al iniciar
-        LoadCinemas();   // Cargar las salas al iniciar
+        IsAdmin = isAdmin; // Establece si es admin o no
+        IsUser = !isAdmin; // Si no es admin, es user
 
-        // Asignar métodos a los comandos
+        LoadFunctions();
+        LoadFilms();
+        LoadCinemas();
+
         AddFunctionCommand = new RelayCommand<Function>(OnAddFunction);
         EditFunctionCommand = new RelayCommand(OnEditFunction);
         DeleteFunctionCommand = new RelayCommand(OnDeleteFunction);
@@ -71,11 +95,11 @@ public class FunctionsViewModel : INotifyPropertyChanged
         var films = await _firebaseService.GetDataAsync<Film>("films");
         var cinemas = await _firebaseService.GetDataAsync<Cinema>("cinemas");
 
-        // Asignar el título de la película y el nombre de la sala a cada función
         foreach (var function in functions)
         {
-            function.FilmTitle = films.FirstOrDefault(f => f.Id == function.FilmId)?.Title;
-            function.CinemaName = cinemas.FirstOrDefault(c => c.Id == function.CinemaId)?.Name;
+            // Asignar la película y la sala correspondientes a la función
+            function.Film = films.FirstOrDefault(f => f.Id == function.FilmId);
+            function.Cinema = cinemas.FirstOrDefault(c => c.Id == function.CinemaId);
         }
 
         Functions = new ObservableCollection<Function>(functions);
@@ -118,8 +142,15 @@ public class FunctionsViewModel : INotifyPropertyChanged
             return;
         }
 
-        await _firebaseService.UpdateDataAsync("functions", SelectedFunction.Id, SelectedFunction);
-        LoadFunctions(); // Recargar la lista de funciones
+        try
+        {
+            await _firebaseService.UpdateDataAsync("functions", SelectedFunction.Id, SelectedFunction);
+            LoadFunctions(); // Recargar la lista de funciones después de la edición
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error al editar la función: {ex.Message}");
+        }
     }
 
     // Método para eliminar una función

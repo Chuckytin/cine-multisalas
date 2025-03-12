@@ -184,3 +184,7 @@ F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\ob
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditReservationView.baml
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\DeleteReservationView.g.cs
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\Comp\EditReservationView.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\SelectSeatsView.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\Views\SelectSeatsView.baml
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\CineMultisalas_MarkupCompile.lref

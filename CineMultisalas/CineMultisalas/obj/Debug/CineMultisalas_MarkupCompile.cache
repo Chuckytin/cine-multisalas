@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\App.xaml
-20-1447004552
+21912715685
 
-38-497404422
+42-92626355
 1561972546997
-MainWindow.xaml;Resources\Styles.xaml;Views\Comp\AddCinemaView.xaml;Views\Comp\AddFilmView.xaml;Views\Comp\AddFunctionView.xaml;Views\Comp\AddReservationView.xaml;Views\Comp\DeleteCinemaView.xaml;Views\Comp\DeleteFilmView.xaml;Views\Comp\DeleteFunctionView.xaml;Views\Comp\DeleteReservationView.xaml;Views\Comp\EditCinemaView.xaml;Views\Comp\EditFilmView.xaml;Views\Comp\EditFunctionView.xaml;Views\Comp\EditReservationView.xaml;Views\FunctionsView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\FilmsView.xaml;Views\ReservationsView.xaml;Views\CinemasView.xaml;
+MainWindow.xaml;Resources\Styles.xaml;Views\Comp\AddCinemaView.xaml;Views\Comp\AddFilmView.xaml;Views\Comp\AddFunctionView.xaml;Views\Comp\AddReservationView.xaml;Views\Comp\DeleteCinemaView.xaml;Views\Comp\DeleteFilmView.xaml;Views\Comp\DeleteFunctionView.xaml;Views\Comp\DeleteReservationView.xaml;Views\Comp\EditCinemaView.xaml;Views\Comp\EditFilmView.xaml;Views\Comp\EditFunctionView.xaml;Views\Comp\EditReservationView.xaml;Views\FunctionsView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\FilmsView.xaml;Views\ReservationsView.xaml;Views\CinemasView.xaml;Views\SelectSeatsView.xaml;
 
 False
 

@@ -19,9 +19,13 @@
 
         <!-- Botones de acciones -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10">
-            <Button Content="Añadir Función" Click="ButtonAddFunction_Click" Width="120" Margin="5" />
-            <Button Content="Editar Función" Click="ButtonEditFunction_Click" Width="120" Margin="5" />
-            <Button Content="Eliminar Función" Click="ButtonDeleteFunction_Click" Width="120" Margin="5" />
+            <!-- Botones visibles solo para admin -->
+            <Button x:Name="btnAddFunction" Content="Añadir Función" Click="ButtonAddFunction_Click" Width="120" Margin="5"/>
+            <Button x:Name="btnEditFunction" Content="Editar Función" Click="ButtonEditFunction_Click" Width="120" Margin="5"/>
+            <Button x:Name="btnDeleteFunction" Content="Eliminar Función" Click="ButtonDeleteFunction_Click" Width="120" Margin="5"/>
+
+            <!-- Botón para seleccionar asientos (visible solo para user) -->
+            <Button x:Name="btnSelectSeats" Content="Seleccionar Asientos" Click="ButtonSelectSeats_Click" Width="120" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>

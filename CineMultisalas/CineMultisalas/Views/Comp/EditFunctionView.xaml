@@ -8,16 +8,18 @@
             <!-- Película -->
             <Label Content="Película:" />
             <ComboBox x:Name="cmbFilm" 
-                      DisplayMemberPath="Title" 
-                      ItemsSource="{Binding Films}" 
-                      SelectedValue="{Binding SelectedFunction.FilmId}" />
+                DisplayMemberPath="Title" 
+                ItemsSource="{Binding Films}" 
+                SelectedValuePath="Id" 
+                SelectedValue="{Binding SelectedFunction.FilmId}" />
 
             <!-- Sala -->
             <Label Content="Sala:" />
             <ComboBox x:Name="cmbCinema" 
-                      DisplayMemberPath="Name" 
-                      ItemsSource="{Binding Cinemas}" 
-                      SelectedValue="{Binding SelectedFunction.CinemaId}" />
+                DisplayMemberPath="Name" 
+                ItemsSource="{Binding Cinemas}" 
+                SelectedValuePath="Id" 
+                SelectedValue="{Binding SelectedFunction.CinemaId}" />
 
             <!-- Fecha -->
             <Label Content="Fecha:" />
@@ -25,7 +27,7 @@
 
             <!-- Hora de inicio -->
             <Label Content="Hora de inicio (HH:mm):" />
-            <ComboBox x:Name="cmbStartTime">
+            <ComboBox x:Name="cmbStartTime" SelectedValue="{Binding SelectedFunction.StartTime, StringFormat=HH:mm}">
                 <ComboBoxItem Content="17:00" />
                 <ComboBoxItem Content="18:00" />
                 <ComboBoxItem Content="19:00" />

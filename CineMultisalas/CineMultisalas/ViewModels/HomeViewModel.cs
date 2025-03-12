@@ -6,14 +6,18 @@ namespace CineMultisalas.ViewModels
 {
     internal class HomeViewModel
     {
+        private readonly bool _isAdmin;
+
         // Comandos para navegar a las diferentes vistas
         public ICommand NavigateToFilmsCommand { get; }
         public ICommand NavigateToCinemasCommand { get; }
         public ICommand NavigateToFunctionsCommand { get; }
         public ICommand NavigateToReservationsCommand { get; }
 
-        public HomeViewModel()
+        public HomeViewModel(bool isAdmin)
         {
+            _isAdmin = isAdmin;
+
             NavigateToFilmsCommand = new RelayCommand(NavigateToFilms);
             NavigateToCinemasCommand = new RelayCommand(NavigateToCinemas);
             NavigateToFunctionsCommand = new RelayCommand(NavigateToFunctions);
@@ -34,7 +38,7 @@ namespace CineMultisalas.ViewModels
 
         private void NavigateToFunctions()
         {
-            var functionsView = new FunctionsView();
+            var functionsView = new FunctionsView(_isAdmin);
             functionsView.Show();
         }
 

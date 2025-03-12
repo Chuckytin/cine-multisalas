@@ -16,7 +16,7 @@ namespace CineMultisalas.Services
         }
 
         // Autentica a un usuario con username y password
-        public async Task<string> LoginAsync(string username, string password)
+        public async Task<User> LoginAsync(string username, string password)
         {
             try
             {
@@ -31,11 +31,11 @@ namespace CineMultisalas.Services
 
                 if (userMatch != null)
                 {
-                    return userMatch.Object.UserId.ToString();
+                    return userMatch.Object; // Devuelve el objeto User completo
                 }
                 else
                 {
-                    return null;
+                    return null; // No se encontró el usuario
                 }
             }
             catch (System.Exception ex)

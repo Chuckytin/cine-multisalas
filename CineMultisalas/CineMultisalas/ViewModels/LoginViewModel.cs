@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using CineMultisalas.Models;
 
 namespace CineMultisalas.ViewModels
 {
@@ -36,7 +37,7 @@ namespace CineMultisalas.ViewModels
         }
 
         // Método para autenticar al usuario
-        public async Task<string> LoginAsync(string username, string password)
+        public async Task<User> LoginAsync(string username, string password)
         {
             return await _authService.LoginAsync(username, password);
         }
@@ -50,10 +51,11 @@ namespace CineMultisalas.ViewModels
                 return;
             }
 
-            var userId = await LoginAsync(Username, Password);
-            if (userId != null)
+            var user = await LoginAsync(Username, Password);
+            if (user != null)
             {
-                var homeView = new HomeView();
+                bool isAdmin = user.Role == "Admin"; // Determina si el usuario es admin
+                var homeView = new HomeView(isAdmin); // Pasa el parámetro isAdmin
                 homeView.Show();
                 Application.Current.MainWindow.Close();
             }

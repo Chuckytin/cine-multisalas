@@ -277,8 +277,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Helpers\BooleanToVisibilityConverter.cs" />
     <Compile Include="Helpers\ContextualHelps.cs" />
     <Compile Include="Helpers\Validations.cs" />
+    <Compile Include="Models\Seat.cs" />
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\FirebaseService.cs" />
     <Compile Include="ViewModels\FunctionsViewModel.cs" />
@@ -287,6 +289,7 @@
     <Compile Include="ViewModels\FilmsViewModel.cs" />
     <Compile Include="ViewModels\ReservationsViewModel.cs" />
     <Compile Include="ViewModels\CinemasViewModel.cs" />
+    <Compile Include="ViewModels\SelectSeatsViewModel.cs" />
     <Compile Include="Views\Comp\AddCinemaView.xaml.cs">
       <DependentUpon>AddCinemaView.xaml</DependentUpon>
     </Compile>
@@ -340,6 +343,9 @@
     </Compile>
     <Compile Include="Views\CinemasView.xaml.cs">
       <DependentUpon>CinemasView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SelectSeatsView.xaml.cs">
+      <DependentUpon>SelectSeatsView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -426,6 +432,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\CinemasView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SelectSeatsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -14,22 +14,19 @@ namespace CineMultisalas.Views.Comp
             InitializeComponent();
             _viewModel = viewModel;
             DataContext = _viewModel; // Vincular el ViewModel a la vista
+
+            // Cargar películas y salas
+            cmbFilm.ItemsSource = _viewModel.Films;
+            cmbCinema.ItemsSource = _viewModel.Cinemas;
         }
 
         private void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
-            // Verificar si algún campo está vacío
+            // Validar que todos los campos estén completos
             if (cmbFilm.SelectedItem == null || cmbCinema.SelectedItem == null ||
                 dpDate.SelectedDate == null || string.IsNullOrEmpty(cmbStartTime.Text))
             {
                 MessageBox.Show("Por favor, completa todos los campos.");
-                return;
-            }
-
-            // Validar que SelectedValue no sea nulo
-            if (cmbFilm.SelectedValue == null || cmbCinema.SelectedValue == null)
-            {
-                MessageBox.Show("Error: No se seleccionó una película o sala válida.");
                 return;
             }
 
@@ -43,17 +40,10 @@ namespace CineMultisalas.Views.Comp
             // Crear nueva función
             var newFunction = new Function
             {
-                FilmId = (int)cmbFilm.SelectedValue,
-                CinemaId = (int)cmbCinema.SelectedValue,
+                FilmId = (int)cmbFilm.SelectedValue, // Asignar FilmId
+                CinemaId = (int)cmbCinema.SelectedValue, // Asignar CinemaId
                 StartTime = dpDate.SelectedDate.Value + startTime
             };
-
-            // Verificar que newFunction no sea nulo antes de enviarlo al ViewModel
-            if (newFunction == null)
-            {
-                MessageBox.Show("Error: La función no puede ser nula.");
-                return;
-            }
 
             // Pasar la nueva función al ViewModel
             _viewModel.OnAddFunction(newFunction);

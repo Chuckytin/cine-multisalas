@@ -24,14 +24,17 @@ namespace CineMultisalas.Views.Comp
             }
 
             // Crear una nueva reserva con los datos ingresados
+            /*
             var newReservation = new Reservation
             {
                 FunctionId = (cmbFunction.SelectedItem as Function).Id,
                 Seats = int.Parse(txtSeats.Text)
             };
+            
 
             // Pasar la nueva reserva al ViewModel
             _viewModel.OnAddReservation(newReservation);
+            */
 
             // Cerrar la ventana
             this.Close();

@@ -15,14 +15,22 @@ namespace CineMultisalas.Views
         {
             var username = txtUser.Text;
             var password = txtPassword.Password;
-            System.Diagnostics.Debug.WriteLine($"Usuario: {username}, Contraseña: {password}");
 
             var viewModel = (LoginViewModel)DataContext;
-            var userId = await viewModel.LoginAsync(username, password);
-            if (userId != null)
+            var user = await viewModel.LoginAsync(username, password);
+
+            if (user != null)
             {
-                var homeView = new HomeView();
-                homeView.Show();
+                if (user.Role == "Admin")
+                {
+                    var homeView = new HomeView(true); // Vista de administrador (isAdmin = true)
+                    homeView.Show();
+                }
+                else
+                {
+                    var functionsView = new FunctionsView(false); // Vista de usuario (isAdmin = false)
+                    functionsView.Show();
+                }
                 this.Close();
             }
             else

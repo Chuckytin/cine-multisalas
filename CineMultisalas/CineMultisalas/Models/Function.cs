@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CineMultisalas.Models
 {
@@ -13,10 +9,12 @@ namespace CineMultisalas.Models
         public int CinemaId { get; set; }
         public DateTime StartTime { get; set; }
 
-        // Propiedad de solo lectura para el título de la película
-        public string FilmTitle { get; set; }
+        // Propiedades de navegación
+        public Film Film { get; set; }
+        public Cinema Cinema { get; set; }
 
-        // Propiedad de solo lectura para el nombre de la sala
-        public string CinemaName { get; set; }
+        // Propiedades calculadas
+        public string FilmTitle => Film?.Title; // Título de la película
+        public string CinemaName => Cinema?.Name; // Nombre de la sala
     }
 }
