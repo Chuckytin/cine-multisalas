@@ -1,22 +1,25 @@
 # CineMultisalas - Sistema de Gestión de Reservas
 
-Este proyecto es un sistema de gestión de reservas para un cine, desarrollado en **WPF** con **C#** y utilizando **Firebase Realtime Database** como backend. A continuación, se describe la estructura de clases y su diseño.
+Este proyecto es un sistema de gestión de reservas para un cine, desarrollado en **WPF** con **C#** y utilizando **Firebase Realtime Database** como backend. A continuación, se describe la estructura de clases, los paquetes NuGet utilizados y el diseño del proyecto.
 
 ---
 
-## Estructura de Clases
+## Estructura del Proyecto
 
-### Diagrama UML
-A continuación, se muestra un diagrama UML que representa la estructura de clases del proyecto:
-
-![Diagrama UML](https://via.placeholder.com/800x600.png?text=Diagrama+UML)  
-*(Reemplaza esta imagen con tu diagrama UML)*
 
 ---
 
-### Descripción de las Clases
+## Paquetes NuGet Utilizados
 
-#### 1. **Modelos (`Models`)**
+- **Firebase.Database**: Para interactuar con Firebase Realtime Database.
+- **CommunityToolkit.Mvvm**: Para implementar el patrón MVVM y simplificar el uso de comandos.
+- **Newtonsoft.Json**: Para serializar y deserializar objetos JSON (usado internamente por Firebase.Database).
+
+---
+
+## Descripción de las Clases y Componentes
+
+### **1. Modelos (`Models`)**
 Representan las entidades principales del sistema.
 
 - **`Cinema`**: Representa una sala de cine.
@@ -40,7 +43,7 @@ Representan las entidades principales del sistema.
 
 ---
 
-#### 2. **ViewModels (`ViewModels`)**
+### **2. ViewModels (`ViewModels`)**
 Gestionan la lógica de la aplicación y se conectan con las vistas.
 
 - **`CinemasViewModel`**: Gestiona las salas de cine.
@@ -70,7 +73,7 @@ Gestionan la lógica de la aplicación y se conectan con las vistas.
 
 ---
 
-#### 3. **Vistas (`Views`)**
+### **3. Vistas (`Views`)**
 Interfaz gráfica de la aplicación.
 
 - **`CinemasView`**: Muestra y gestiona las salas de cine.
@@ -83,7 +86,22 @@ Interfaz gráfica de la aplicación.
 
 ---
 
-#### 4. **Helpers (`Helpers`)**
+### **4. Componentes (`Comp`)**
+Ventanas adicionales para operaciones específicas.
+
+- **`AddCinemaView`**: Ventana para añadir una nueva sala de cine.
+- **`EditCinemaView`**: Ventana para editar una sala de cine existente.
+- **`DeleteCinemaView`**: Ventana para confirmar la eliminación de una sala de cine.
+- **`AddFilmView`**: Ventana para añadir una nueva película.
+- **`EditFilmView`**: Ventana para editar una película existente.
+- **`DeleteFilmView`**: Ventana para confirmar la eliminación de una película.
+- **`AddFunctionView`**: Ventana para añadir una nueva función (horario de película).
+- **`EditFunctionView`**: Ventana para editar una función existente.
+- **`DeleteFunctionView`**: Ventana para confirmar la eliminación de una función.
+
+---
+
+### **5. Helpers (`Helpers`)**
 Clases de utilidad.
 
 - **`ContextualHelps`**: Proporciona mensajes de ayuda contextual.
@@ -92,11 +110,18 @@ Clases de utilidad.
 
 ---
 
-#### 5. **Servicios (`Services`)**
+### **6. Servicios (`Services`)**
 Gestionan la interacción con Firebase.
 
 - **`AuthService`**: Gestiona la autenticación de usuarios.
 - **`FirebaseService`**: Realiza operaciones CRUD en Firebase.
+
+---
+
+### **7. Recursos (`Resources`)**
+Archivos de recursos para la aplicación.
+
+- **`Styles.xaml`**: Define estilos globales para la aplicación.
 
 ---
 
@@ -140,21 +165,13 @@ Gestionan la interacción con Firebase.
 ## Instrucciones de Uso
 
 1. **Iniciar Sesión**:
-   - Abre la aplicación e inicia sesión como administrador o usuario normal.
+   - Abre la aplicación e inicia sesión como administrador (admin) o usuario normal (user).
 
 2. **Gestionar Salas, Películas y Funciones**:
-   - Como administrador, puedes añadir, editar y eliminar salas, películas y funciones.
+   - Como administrador (admin), puedes añadir, editar y eliminar salas, películas y funciones.
 
 3. **Seleccionar Asientos**:
-   - Como usuario normal, selecciona una función y reserva tus asientos.
+   - Como usuario normal (user), selecciona una función y reserva tus asientos.
 
 4. **Ver Reservas**:
-   - Como administrador, puedes ver todas las reservas realizadas.
-
----
-
-## Diagrama UML
-
-
-
----
+   - Como administrador (admin), puedes ver todas las reservas realizadas.
