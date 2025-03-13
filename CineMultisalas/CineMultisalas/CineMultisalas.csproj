@@ -277,7 +277,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Helpers\BooleanToVisibilityConverter.cs" />
     <Compile Include="Helpers\ContextualHelps.cs" />
     <Compile Include="Helpers\SeatsConverter.cs" />
     <Compile Include="Helpers\Validations.cs" />

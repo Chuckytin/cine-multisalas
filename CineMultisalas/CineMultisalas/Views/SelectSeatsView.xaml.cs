@@ -1,5 +1,7 @@
 ﻿using CineMultisalas.Models;
+using CineMultisalas.Services;
 using CineMultisalas.ViewModels;
+using System;
 using System.Linq;
 using System.Windows;
 
@@ -13,7 +15,7 @@ namespace CineMultisalas.Views
             DataContext = new SelectSeatsViewModel(selectedFunction.Cinema.Capacity, selectedFunction.Id);
         }
 
-        private void ButtonConfirm_Click(object sender, RoutedEventArgs e)
+        private async void ButtonConfirm_Click(object sender, RoutedEventArgs e)
         {
             var viewModel = (SelectSeatsViewModel)DataContext;
             var selectedSeats = viewModel.GetSelectedSeats();
@@ -24,9 +26,25 @@ namespace CineMultisalas.Views
                 return;
             }
 
-            // Aquí puedes guardar la reserva con los asientos seleccionados
-            MessageBox.Show($"Asientos seleccionados: {string.Join(", ", selectedSeats.Select(s => s.SeatNumber))}");
-            this.Close();
+            // Crear una nueva reserva
+            var newReservation = new Reservation
+            {
+                FunctionId = viewModel.FunctionId, // ID de la función
+                SelectedSeats = selectedSeats.Select(s => s.SeatNumber).ToList() // Lista de asientos seleccionados
+            };
+
+            // Guardar la reserva en Firebase
+            var firebaseService = new FirebaseService();
+            try
+            {
+                await firebaseService.AddDataAsync("reservations", newReservation);
+                MessageBox.Show("Reserva guardada correctamente.");
+                this.Close(); // Cerrar la ventana después de guardar
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al guardar la reserva: {ex.Message}");
+            }
         }
     }
 }

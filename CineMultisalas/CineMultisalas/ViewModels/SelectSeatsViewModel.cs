@@ -15,6 +15,9 @@ namespace CineMultisalas.ViewModels
         public ObservableCollection<Seat> Seats { get; set; }
         public int Rows => CalculateRows(_capacity);
 
+        // Propiedad para el ID de la función
+        public int FunctionId => _functionId;
+
         public SelectSeatsViewModel(int capacity, int functionId)
         {
             _capacity = capacity;
@@ -65,6 +68,7 @@ namespace CineMultisalas.ViewModels
             return new ObservableCollection<Seat>(Seats.Where(s => s.IsSelected));
         }
 
+        // Implementación de INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

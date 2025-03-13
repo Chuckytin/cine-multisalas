@@ -78,8 +78,8 @@ namespace CineMultisalas.Views
             }
 
             // Navegar a ReservationsView con el functionId
-            var homeViewModel = new HomeViewModel(_isAdmin);
-            homeViewModel.NavigateToReservations(viewModel.SelectedFunction.Id);
+            var reservationsView = new ReservationsView(viewModel.SelectedFunction.Id);
+            reservationsView.Show();
         }
 
         private void MenuItemLogout_Click(object sender, RoutedEventArgs e)

@@ -6,9 +6,6 @@
 
     <Application.Resources>
         <ResourceDictionary>
-            <!-- Convertidor de booleanos a visibilidad -->
-            <helpers:BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
-
             <!-- Referencia al archivo de estilos -->
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles.xaml"/>

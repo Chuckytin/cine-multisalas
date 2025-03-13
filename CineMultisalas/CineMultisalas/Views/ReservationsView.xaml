@@ -15,7 +15,7 @@
                   IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Función" Binding="{Binding FunctionId}" Width="*" />
-                <DataGridTextColumn Header="Asientos" Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" Width="*" />
+                <DataGridTextColumn Header="Asientos Reservados" Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
