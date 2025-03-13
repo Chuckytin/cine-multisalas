@@ -1,17 +1,13 @@
 ﻿<Window x:Class="CineMultisalas.Views.Comp.AddFilmView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Añadir Película" Height="450" Width="450"
+        Title="Añadir Película" Height="350" Width="400"
         WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <StackPanel>
             <!-- Título -->
             <Label Content="Título:" />
             <TextBox x:Name="txtTitle" />
-
-            <!-- Descripción -->
-            <Label Content="Descripción:" />
-            <TextBox x:Name="txtDescription" />
 
             <!-- Duración -->
             <Label Content="Duración (min):" />

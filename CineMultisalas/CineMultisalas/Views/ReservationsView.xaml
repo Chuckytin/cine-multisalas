@@ -5,20 +5,29 @@
         Title="Reservas" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
-        <!-- Registrar el SeatsConverter como un recurso -->
+        <!-- Registra el SeatsConverter como un recurso -->
         <helpers:SeatsConverter x:Key="SeatsConverter"/>
     </Window.Resources>
     <Grid Margin="10">
         <!-- DataGrid para mostrar las reservas agrupadas -->
         <DataGrid ItemsSource="{Binding Reservations}" 
-                  AutoGenerateColumns="False" 
-                  Margin="0,0,0,50"
-                  IsReadOnly="True">
+          AutoGenerateColumns="False" 
+          Margin="0,0,0,50"
+          IsReadOnly="True"
+          RowHeight="40">
+            <!-- Alto fijo para las filas -->
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Sala" Binding="{Binding CinemaName}" Width="*" />
                 <DataGridTextColumn Header="Asientos Reservados" 
-                                    Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" 
-                                    Width="*" />
+                            Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" 
+                            Width="*">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                            <!-- Permitir saltos de línea -->
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

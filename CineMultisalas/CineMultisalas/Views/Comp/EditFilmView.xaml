@@ -1,17 +1,13 @@
 ﻿<Window x:Class="CineMultisalas.Views.Comp.EditFilmView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Editar Película" Height="450" Width="450"
+        Title="Editar Película" Height="350" Width="400"
         WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <StackPanel>
             <!-- Título -->
             <Label Content="Título:" />
             <TextBox x:Name="txtTitle" Text="{Binding SelectedFilm.Title}" />
-
-            <!-- Descripción -->
-            <Label Content="Descripción:" />
-            <TextBox x:Name="txtDescription" Text="{Binding SelectedFilm.Description}" />
 
             <!-- Duración -->
             <Label Content="Duración (min):" />

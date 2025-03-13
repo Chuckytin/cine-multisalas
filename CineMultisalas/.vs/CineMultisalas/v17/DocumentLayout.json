@@ -3,16 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\reservationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\selectseatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\selectseatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cine-multisalas\\cinemultisalas\\cinemultisalas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cine-multisalas\\cinemultisalas\\cinemultisalas\\views\\reservationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\reservationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\filmsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\filmsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\functionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\functionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\cinemasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\cinemasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\editfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addcinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addcinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\deletecinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\deletecinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\editfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\viewmodels\\filmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\filmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\helpers\\seatsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\helpers\\seatsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\reservationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\reservationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\viewmodels\\reservationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\reservationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|c:\\users\\alu\\source\\repos\\cine-multisalas\\cinemultisalas\\cinemultisalas\\viewmodels\\filmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\filmsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\viewmodels\\cinemasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,20 +103,8 @@
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\helpers\\contextualhelps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\reservationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\reservationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\helpers\\seatsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\helpers\\seatsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\functionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\functionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\functionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\functionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\cinemasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\cinemasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -85,14 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\viewmodels\\selectseatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\viewmodels\\selectseatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\selectseatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\selectseatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\models\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,14 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\editfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\editfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\editfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\editcinemaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -147,32 +175,12 @@
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\deletecinemaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\deletecinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\deletecinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfunctionview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfunctionview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfunctionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfilmview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addfilmview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addcinemaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addcinemaview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\comp\\addcinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\comp\\addcinemaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -185,10 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\filmsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\filmsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\filmsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|solutionrelative:cinemultisalas\\views\\filmsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A16CB1B8-18D0-440F-A2B7-B9B6E37DB976}|CineMultisalas\\CineMultisalas.csproj|C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\cinemultisalas\\views\\cinemasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -251,7 +255,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -263,33 +267,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReservationsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:22:54.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FilmsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FilmsViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\FilmsViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FilmsViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\FilmsViewModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:15:36.566Z",
+              "DocumentIndex": 4,
+              "Title": "FilmsView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FilmsView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\FilmsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T19:24:16.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SelectSeatsView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T21:07:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\App.config",
+              "RelativeDocumentMoniker": "CineMultisalas\\App.config",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\App.config",
+              "RelativeToolTip": "CineMultisalas\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-13T16:31:36.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ReservationsView.xaml",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml",
               "RelativeDocumentMoniker": "CineMultisalas\\Views\\ReservationsView.xaml",
@@ -301,31 +316,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CinemasViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\CinemasViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\CinemasViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\CinemasViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\CinemasViewModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:20:16.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FirebaseService.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Services\\FirebaseService.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Services\\FirebaseService.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Services\\FirebaseService.cs",
-              "RelativeToolTip": "CineMultisalas\\Services\\FirebaseService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwFYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:03:44.872Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "FunctionsView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FunctionsView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\FunctionsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T19:24:19.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T15:36:44.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CinemasView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\CinemasView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\CinemasView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T19:21:23.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditFilmView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T18:34:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PeliculasViewModel.cs",
+              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\PeliculasViewModel.cs",
+              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\PeliculasViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:30:29.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SeatsView.xaml.cs",
+              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml.cs",
+              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:09:26.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SelectSeatsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:58:53.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SelectSeatsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:13:04.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddFilmView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-09T19:51:05.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Services\\AuthService.cs",
@@ -337,19 +430,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Film.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Film.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Film.cs",
-              "RelativeToolTip": "CineMultisalas\\Models\\Film.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "ContextualHelps.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\ContextualHelps.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Helpers\\ContextualHelps.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\ContextualHelps.cs",
+              "RelativeToolTip": "CineMultisalas\\Helpers\\ContextualHelps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:35:09.56Z"
+              "WhenOpened": "2025-03-08T19:48:51.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:13:41.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Cinema.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Cinema.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Models\\Cinema.cs",
@@ -361,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Validations.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\Validations.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Helpers\\Validations.cs",
@@ -374,284 +479,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ContextualHelps.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\ContextualHelps.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Helpers\\ContextualHelps.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\ContextualHelps.cs",
-              "RelativeToolTip": "CineMultisalas\\Helpers\\ContextualHelps.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:48:51.215Z"
+              "Title": "AddFunctionView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T18:06:05.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ReservationsView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\ReservationsView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\ReservationsView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:24:35.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SeatsConverter.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\SeatsConverter.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Helpers\\SeatsConverter.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\SeatsConverter.cs",
-              "RelativeToolTip": "CineMultisalas\\Helpers\\SeatsConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:35:44.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:13:41.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FunctionsView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FunctionsView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\FunctionsView.xaml",
+              "Title": "AddCinemaView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T19:24:19.713Z"
+              "WhenOpened": "2025-03-12T17:59:00.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FunctionsView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FunctionsView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\FunctionsView.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:24:28.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Reservation.cs",
-              "RelativeToolTip": "CineMultisalas\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:35:22.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FunctionsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAqwKcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:21:41.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CinemasView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\CinemasView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\CinemasView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T19:21:23.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\HomeView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\HomeView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\HomeView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\HomeView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T15:36:58.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:43:23.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "FilmsView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FilmsView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\FilmsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T19:24:16.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CinemasView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\CinemasView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\CinemasView.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:26:18.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "SeatsView.xaml",
-              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml",
-              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T16:07:40.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "FuncionesViewModel.cs",
-              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FuncionesViewModel.cs",
-              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FuncionesViewModel.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:31:00.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "PropertyPathWorker.cs",
-              "DocumentMoniker": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
-              "ToolTip": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs [Solo lectura]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:25:18.348Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "SalasViewModel.cs",
-              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SalasViewModel.cs",
-              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SalasViewModel.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:30:44.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:59:02.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "PeliculasViewModel.cs",
-              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\PeliculasViewModel.cs",
-              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\PeliculasViewModel.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:30:29.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "SeatsView.xaml.cs",
-              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml.cs",
-              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T16:09:26.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SelectSeatsView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T21:07:35.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SelectSeatsView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:58:53.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SelectSeatsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\SelectSeatsViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAswEsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:13:04.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-06T15:36:44.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Function.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Function.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Function.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Function.cs",
-              "RelativeToolTip": "CineMultisalas\\Models\\Function.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:12:58.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\App.xaml",
               "RelativeDocumentMoniker": "CineMultisalas\\App.xaml",
@@ -663,216 +514,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EditFunctionView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswEYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:08:28.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EditFunctionView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T18:07:45.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EditFilmView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:58:16.96Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "EditFilmView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-10T18:34:53.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EditCinemaView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Title": "FunctionsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\FunctionsViewModel.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAqwKcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:05:01.337Z"
+              "WhenOpened": "2025-03-08T19:21:41.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EditCinemaView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T18:04:22.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DeleteFunctionView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:15:42.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DeleteFunctionView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T18:15:32.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DeleteFilmView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:42:04.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DeleteFilmView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-10T18:41:49.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Resources\\Styles.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Resources\\Styles.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Resources\\Styles.xaml",
-              "RelativeToolTip": "CineMultisalas\\Resources\\Styles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T18:48:00.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\User.cs",
-              "RelativeToolTip": "CineMultisalas\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:27:54.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Seat.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Seat.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Seat.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Seat.cs",
-              "RelativeToolTip": "CineMultisalas\\Models\\Seat.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T16:21:40.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DeleteCinemaView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:05:39.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DeleteCinemaView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T18:05:25.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "CineMultisalas\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T15:44:46.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddFunctionView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:06:33.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AddFunctionView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T18:06:05.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "FilmsView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Views\\FilmsView.xaml.cs",
@@ -884,30 +538,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 27,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Reservation.cs",
+              "RelativeToolTip": "CineMultisalas\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:35:22.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteCinemaView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T18:05:25.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AddFilmView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml.cs",
               "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml.cs",
               "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwCsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T19:51:38.942Z"
+              "WhenOpened": "2025-03-09T19:51:38.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DeleteFunctionView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:15:42.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteFunctionView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFunctionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T18:15:32.82Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "AddFilmView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFilmView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T19:51:05.317Z"
+              "Title": "DeleteFilmView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:42:04.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "HomeView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\HomeView.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Views\\HomeView.xaml.cs",
@@ -919,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "AddCinemaView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddCinemaView.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddCinemaView.xaml.cs",
@@ -931,18 +634,346 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "AddCinemaView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddCinemaView.xaml",
+              "DocumentIndex": 13,
+              "Title": "EditFilmView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFilmView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:58:16.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditFunctionView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:08:28.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditFunctionView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditFunctionView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T17:59:00.768Z"
+              "WhenOpened": "2025-03-12T18:07:45.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CinemasViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\CinemasViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\CinemasViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\CinemasViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\CinemasViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:20:16.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:44:46.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddFunctionView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\AddFunctionView.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:06:33.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeleteFilmView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteFilmView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T18:41:49.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Resources\\Styles.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Resources\\Styles.xaml",
+              "RelativeToolTip": "CineMultisalas\\Resources\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T18:48:00.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\User.cs",
+              "RelativeToolTip": "CineMultisalas\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:27:54.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Seat.cs",
+              "RelativeToolTip": "CineMultisalas\\Models\\Seat.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:21:40.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DeleteCinemaView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\DeleteCinemaView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:05:39.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FilmsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FilmsViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\FilmsViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FilmsViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\FilmsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:15:36.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Film.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Film.cs",
+              "RelativeToolTip": "CineMultisalas\\Models\\Film.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:35:09.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeatsConverter.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\SeatsConverter.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Helpers\\SeatsConverter.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Helpers\\SeatsConverter.cs",
+              "RelativeToolTip": "CineMultisalas\\Helpers\\SeatsConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:35:44.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Function.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Function.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Models\\Function.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Models\\Function.cs",
+              "RelativeToolTip": "CineMultisalas\\Models\\Function.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:12:58.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\HomeView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T15:36:58.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:43:23.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReservationsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\ReservationsView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\ReservationsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:24:35.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReservationsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
+              "RelativeToolTip": "CineMultisalas\\ViewModels\\ReservationsViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:22:54.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FirebaseService.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Services\\FirebaseService.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Services\\FirebaseService.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Services\\FirebaseService.cs",
+              "RelativeToolTip": "CineMultisalas\\Services\\FirebaseService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:03:44.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FunctionsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FunctionsView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FunctionsView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\FunctionsView.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:24:28.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CinemasView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\CinemasView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\CinemasView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\CinemasView.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:26:18.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SeatsView.xaml",
+              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml",
+              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\SeatsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T16:07:40.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "FuncionesViewModel.cs",
+              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FuncionesViewModel.cs",
+              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\FuncionesViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:31:00.458Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 53,
+              "Title": "PropertyPathWorker.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
+              "ToolTip": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs [Solo lectura]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:25:18.348Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SalasViewModel.cs",
+              "DocumentMoniker": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SalasViewModel.cs",
+              "ToolTip": "F:\\chuck\\workspace-visualstudio\\cine-multisalas\\CineMultisalas\\CineMultisalas\\ViewModels\\SalasViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:30:44.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\chuck\\AppData\\Local\\Temp\\.vsdbgsrc\\ffff07f30d6437cd60ffccd5ee2565e21b359b39a9ae10354e9bf60d1557dfca\\NavigationService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:59:02.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EditCinemaView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:05:01.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EditCinemaView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\Comp\\EditCinemaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T18:04:22.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\App.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\App.xaml.cs",
@@ -954,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CineMultisalas\\MainWindow.xaml",
@@ -965,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CineMultisalas\\MainWindow.xaml.cs",

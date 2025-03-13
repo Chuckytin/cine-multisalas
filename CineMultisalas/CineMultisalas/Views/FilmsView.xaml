@@ -18,12 +18,11 @@
         <Grid Margin="21">
             <!-- DataGrid para mostrar las películas -->
             <DataGrid ItemsSource="{Binding Films}" 
-                AutoGenerateColumns="False" 
-                 Margin="0,0,0,50"
-                 SelectedItem="{Binding SelectedFilm, Mode=TwoWay}">
+                      AutoGenerateColumns="False" 
+                      Margin="0,0,0,50"
+                      SelectedItem="{Binding SelectedFilm, Mode=TwoWay}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Título" Binding="{Binding Title}" Width="*" />
-                    <DataGridTextColumn Header="Descripción" Binding="{Binding Description}" Width="*" />
+                    <DataGridTextColumn Header="Título" Binding="{Binding Title}" Width="400" />
                     <DataGridTextColumn Header="Duración (min)" Binding="{Binding Duration}" Width="*" />
                     <DataGridTextColumn Header="Género" Binding="{Binding Genre}" Width="*" />
                 </DataGrid.Columns>
@@ -35,8 +34,6 @@
                 <Button Content="Editar Película" Click="ButtonEditFilm_Click" Width="120" Margin="5" />
                 <Button Content="Eliminar Película" Click="ButtonDeleteFilm_Click" Width="120" Margin="5" />
             </StackPanel>
-
         </Grid>
     </Grid>
-    
 </Window>

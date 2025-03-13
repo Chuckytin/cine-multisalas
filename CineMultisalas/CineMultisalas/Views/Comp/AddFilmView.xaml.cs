@@ -18,7 +18,7 @@ namespace CineMultisalas.Views.Comp
         private void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
             // Validar que todos los campos estén completos
-            if (string.IsNullOrEmpty(txtTitle.Text) || string.IsNullOrEmpty(txtDescription.Text) ||
+            if (string.IsNullOrEmpty(txtTitle.Text) ||
                 string.IsNullOrEmpty(txtDuration.Text) || cmbGenre.SelectedItem == null)
             {
                 MessageBox.Show("Por favor, completa todos los campos.");
@@ -29,7 +29,6 @@ namespace CineMultisalas.Views.Comp
             var newFilm = new Film
             {
                 Title = txtTitle.Text,
-                Description = txtDescription.Text,
                 Duration = int.Parse(txtDuration.Text),
                 Genre = (cmbGenre.SelectedItem as ComboBoxItem)?.Content.ToString() // Obtener el género seleccionado
             };

@@ -22,7 +22,7 @@
               Margin="0,0,0,50"
               SelectedItem="{Binding SelectedFunction, Mode=TwoWay}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Película" Binding="{Binding FilmTitle}" Width="*" />
+                    <DataGridTextColumn Header="Película" Binding="{Binding FilmTitle}" Width="400" />
                     <DataGridTextColumn Header="Sala" Binding="{Binding CinemaName}" Width="*" />
                     <DataGridTextColumn Header="Fecha" Binding="{Binding StartTime, StringFormat=d}" Width="*" />
                     <DataGridTextColumn Header="Hora de inicio" Binding="{Binding StartTime, StringFormat=HH:mm}" Width="*" />
