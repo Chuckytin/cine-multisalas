@@ -255,7 +255,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -264,6 +264,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilmsView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FilmsView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\FilmsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-08T19:24:16.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectSeatsView.xaml",
+              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T21:07:35.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -280,18 +304,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FilmsView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\FilmsView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\FilmsView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\FilmsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-08T19:24:16.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ReservationsView.xaml",
               "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\ReservationsView.xaml",
@@ -300,18 +312,6 @@
               "RelativeToolTip": "CineMultisalas\\Views\\ReservationsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-08T19:27:43.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectSeatsView.xaml",
-              "DocumentMoniker": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "RelativeDocumentMoniker": "CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "ToolTip": "C:\\Users\\alu\\source\\repos\\cine-multisalas\\CineMultisalas\\CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "RelativeToolTip": "CineMultisalas\\Views\\SelectSeatsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T21:07:35.56Z",
               "EditorCaption": ""
             },
             {

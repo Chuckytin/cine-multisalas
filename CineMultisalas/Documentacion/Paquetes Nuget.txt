@@ -1,5 +1,0 @@
-CommunityToolkit.Mvvm
-Dapper
-FireBaseDatabase.net
-FirebaseAdmin
-Firebase.Auth

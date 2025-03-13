@@ -1,6 +1,0 @@
-Si al descargar el proyecto hay errores de paquetes using o directivas de ensamblado, realiza una limpieza profunda:
-Cerrar el Visual Studio 2022.
-Borrar las carpetas de bin/, obj/ y packages/.
-Abrir el Visual Studio 2022.
-Restaura los paquetes Nuget.
-Reconstruye la solución.

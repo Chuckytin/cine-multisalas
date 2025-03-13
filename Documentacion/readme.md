@@ -6,6 +6,51 @@ Este proyecto es un sistema de gestión de reservas para un cine, desarrollado e
 
 ## Estructura del Proyecto
 
+CineMultisalas/
+├── 📁 Helpers/
+│   ├── 🟢 Validations.cs
+│   ├── 🟢 ContextualHelps.cs
+│   └── 🟢 SeatsConverter.cs
+├── 📁 Resources/
+│   └── 🟢 Styles.xaml
+├── 📁 Models/
+│   ├── 🟢 User.cs
+│   ├── 🟢 Film.cs
+│   ├── 🟢 Cinema.cs
+│   ├── 🟢 Function.cs
+│   ├── 🟢 Reservation.cs
+│   └── 🟢 Seat.cs
+├── 📁 ViewModels/
+│   ├── 🟢 LoginViewModel.cs
+│   ├── 🟢 HomeViewModel.cs
+│   ├── 🟢 FilmsViewModel.cs
+│   ├── 🟢 CinemasViewModel.cs
+│   ├── 🟢 FunctionsViewModel.cs
+│   ├── 🟢 ReservationsViewModel.cs
+│   └── 🟢 SelectSeatsViewModel.cs
+├── 📁 Views/
+│   ├── 🟢 LoginView.xaml
+│   ├── 🟢 HomeView.xaml
+│   ├── 🟢 FilmsView.xaml
+│   ├── 🟢 CinemasView.xaml
+│   ├── 🟢 FunctionsView.xaml
+│   ├── 🟢 ReservationsView.xaml
+│   ├── 🟢 SelectSeatsView.xaml
+│   └── 📁 Comp/
+│       ├── 🟢 AddCinemaView.xaml
+│       ├── 🟢 EditCinemaView.xaml
+│       ├── 🟢 DeleteCinemaView.xaml
+│       ├── 🟢 AddFilmView.xaml
+│       ├── 🟢 EditFilmView.xaml
+│       ├── 🟢 DeleteFilmView.xaml
+│       ├── 🟢 AddFunctionView.xaml
+│       ├── 🟢 EditFunctionView.xaml
+│       └── 🟢 DeleteFunctionView.xaml
+├── 📁 Services/
+│   ├── 🟢 FirebaseService.cs
+│   └── 🟢 AuthService.cs
+├── 🟢 App.xaml
+└── 🟢 MainWindow.xaml
 
 ---
 
@@ -162,7 +207,40 @@ Archivos de recursos para la aplicación.
 
 ---
 
-## Instrucciones de Uso
+## Instrucciones de Uso y Solución de Problemas Comunes
+
+### **Para Nuevos Integrantes**
+
+1. **Clonar el Repositorio**:
+   - Clona el repositorio en tu máquina local usando Git:
+     ```bash
+     git clone https://github.com/Chuckytin/cine-multisalas.git
+     ```
+
+2. **Abrir el Proyecto**:
+   - Abre el proyecto en **Visual Studio 2022**.
+
+3. **Restaurar Paquetes NuGet**:
+   - Si hay errores relacionados con paquetes NuGet, restaura los paquetes:
+     - Haz clic derecho en la solución y selecciona **"Restaurar paquetes NuGet"**.
+
+4. **Limpieza Profunda (Si es Necesario)**:
+   - Si persisten errores de compilación o referencias, realiza una limpieza profunda:
+     1. Cierra Visual Studio.
+     2. Elimina las carpetas `bin/`, `obj/` y `packages/` del proyecto.
+     3. Abre Visual Studio nuevamente.
+     4. Restaura los paquetes NuGet.
+     5. Reconstruye la solución (**Build > Rebuild Solution**).
+
+5. **Configurar Firebase**:
+   - Asegúrate de tener configurado Firebase Realtime Database con las credenciales correctas en el archivo `FirebaseService.cs`.
+
+6. **Ejecutar el Proyecto**:
+   - Presiona **F5** o selecciona **"Start Debugging"** para ejecutar la aplicación.
+   
+---
+
+### **Instrucciones de Uso para Usuarios**
 
 1. **Iniciar Sesión**:
    - Abre la aplicación e inicia sesión como administrador (admin) o usuario normal (user).

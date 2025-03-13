@@ -1,0 +1,10 @@
+### **Errores de Paquetes o Referencias**
+Si al descargar el proyecto encuentras errores relacionados con paquetes NuGet o referencias, sigue estos pasos:
+
+1. Cierra Visual Studio.
+2. Elimina las carpetas `bin/`, `obj/` y `packages/` del proyecto.
+3. Abre Visual Studio nuevamente.
+4. Restaura los paquetes NuGet:
+   - Haz clic derecho en la solución y selecciona **"Restaurar paquetes NuGet"**.
+5. Reconstruye la solución:
+   - Selecciona **Build > Rebuild Solution**.
