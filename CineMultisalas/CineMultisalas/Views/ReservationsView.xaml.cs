@@ -9,14 +9,9 @@ namespace CineMultisalas.Views
         public ReservationsView()
         {
             InitializeComponent();
-            DataContext = new ReservationsViewModel(); // Cargar todas las reservas
+            DataContext = new ReservationsViewModel(); 
         }
 
-        // Constructor con functionId (carga reservas filtradas)
-        public ReservationsView(int functionId)
-        {
-            InitializeComponent();
-            DataContext = new ReservationsViewModel(functionId); // Cargar reservas filtradas
-        }
+        
     }
 }

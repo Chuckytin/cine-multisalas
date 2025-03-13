@@ -69,6 +69,7 @@ namespace CineMultisalas.Services
             }
         }
 
+        /*
         public async Task<List<Function>> GetFunctionsAsync()
         {
             var functions = await _firebase.Child("functions").OnceAsync<Function>();
@@ -83,5 +84,6 @@ namespace CineMultisalas.Services
             }
             return result;
         }
+        */
     }
 }

@@ -70,15 +70,7 @@ namespace CineMultisalas.Views
 
         private void ButtonViewReservations_Click(object sender, RoutedEventArgs e)
         {
-            var viewModel = (FunctionsViewModel)DataContext;
-            if (viewModel.SelectedFunction == null)
-            {
-                MessageBox.Show("Por favor, selecciona una función para ver las reservas.");
-                return;
-            }
-
-            // Navegar a ReservationsView con el functionId
-            var reservationsView = new ReservationsView(viewModel.SelectedFunction.Id);
+            var reservationsView = new ReservationsView();
             reservationsView.Show();
         }
 

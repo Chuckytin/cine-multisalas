@@ -42,7 +42,7 @@ namespace CineMultisalas.ViewModels
             }
 
             Reservations = new ObservableCollection<Reservation>(reservations);
-            OnPropertyChanged(nameof(Reservations));
+            OnPropertyChanged(nameof(Reservations)); // Notificar cambios en la propiedad
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

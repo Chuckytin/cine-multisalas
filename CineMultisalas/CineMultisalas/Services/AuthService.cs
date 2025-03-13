@@ -14,7 +14,7 @@ namespace CineMultisalas.Services
         {
             _firebase = new FirebaseClient("https://cines-multisalas-default-rtdb.europe-west1.firebasedatabase.app/");
         }
-
+        
         // Autentica a un usuario con username y password
         public async Task<User> LoginAsync(string username, string password)
         {

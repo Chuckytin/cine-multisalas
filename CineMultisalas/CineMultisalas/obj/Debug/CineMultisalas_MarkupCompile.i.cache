@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\
+C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\obj\Debug\
 CineMultisalas
 none
 false
 DEBUG;TRACE
-F:\chuck\workspace-visualstudio\cine-multisalas\CineMultisalas\CineMultisalas\App.xaml
+C:\Users\alu\source\repos\cine-multisalas\CineMultisalas\CineMultisalas\App.xaml
 181390266971
 
 40962283445
-1561972546997
+1561336685466
 MainWindow.xaml;Resources\Styles.xaml;Views\Comp\AddCinemaView.xaml;Views\Comp\AddFilmView.xaml;Views\Comp\AddFunctionView.xaml;Views\Comp\DeleteCinemaView.xaml;Views\Comp\DeleteFilmView.xaml;Views\Comp\DeleteFunctionView.xaml;Views\Comp\EditCinemaView.xaml;Views\Comp\EditFilmView.xaml;Views\Comp\EditFunctionView.xaml;Views\FunctionsView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\FilmsView.xaml;Views\ReservationsView.xaml;Views\CinemasView.xaml;Views\SelectSeatsView.xaml;
 
 True

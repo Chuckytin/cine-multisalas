@@ -5,6 +5,7 @@
         Title="Reservas" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
+        <!-- Registrar el SeatsConverter como un recurso -->
         <helpers:SeatsConverter x:Key="SeatsConverter"/>
     </Window.Resources>
     <Grid Margin="10">
@@ -15,7 +16,9 @@
                   IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Función" Binding="{Binding FunctionId}" Width="*" />
-                <DataGridTextColumn Header="Asientos Reservados" Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" Width="*" />
+                <DataGridTextColumn Header="Asientos Reservados" 
+                                    Binding="{Binding SelectedSeats, Converter={StaticResource SeatsConverter}}" 
+                                    Width="*" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

@@ -88,7 +88,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
         DeleteFunctionCommand = new RelayCommand(OnDeleteFunction);
     }
 
-    // Cargar las funciones desde Firebase
+    // Carga las funciones desde Firebase
     private async void LoadFunctions()
     {
         var functions = await _firebaseService.GetDataAsync<Function>("functions");
@@ -97,7 +97,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
 
         foreach (var function in functions)
         {
-            // Asignar la película y la sala correspondientes a la función
+            // Asigna la película y la sala correspondientes a la función
             function.Film = films.FirstOrDefault(f => f.Id == function.FilmId);
             function.Cinema = cinemas.FirstOrDefault(c => c.Id == function.CinemaId);
         }
@@ -128,9 +128,9 @@ public class FunctionsViewModel : INotifyPropertyChanged
             return;
         }
 
-        newFunction.Id = Functions.Count + 1; // Generar un ID único
+        newFunction.Id = Functions.Count + 1; //genera un ID único
         await _firebaseService.AddDataAsync("functions", newFunction);
-        LoadFunctions(); // Recargar la lista de funciones
+        LoadFunctions(); 
     }
 
     // Método para editar una función existente
@@ -145,7 +145,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
         try
         {
             await _firebaseService.UpdateDataAsync("functions", SelectedFunction.Id, SelectedFunction);
-            LoadFunctions(); // Recargar la lista de funciones después de la edición
+            LoadFunctions(); 
         }
         catch (Exception ex)
         {
@@ -165,7 +165,7 @@ public class FunctionsViewModel : INotifyPropertyChanged
         try
         {
             await _firebaseService.DeleteDataAsync<Function>("functions", SelectedFunction.Id);
-            LoadFunctions(); // Recargar la lista de funciones
+            LoadFunctions(); 
         }
         catch (Exception ex)
         {

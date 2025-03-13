@@ -44,8 +44,7 @@ public class HomeViewModel
 
     private void NavigateToReservations()
     {
-        // Pasar un functionId por defecto (por ejemplo, 0)
-        var reservationsView = new ReservationsView(0); // O cualquier otro valor por defecto
+        var reservationsView = new ReservationsView(); 
         reservationsView.Show();
     }
 }
