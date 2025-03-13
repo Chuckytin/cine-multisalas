@@ -16,12 +16,14 @@ public class HomeViewModel
     {
         _isAdmin = isAdmin;
 
+        // Inicializar los comandos
         NavigateToFilmsCommand = new RelayCommand(NavigateToFilms);
         NavigateToCinemasCommand = new RelayCommand(NavigateToCinemas);
         NavigateToFunctionsCommand = new RelayCommand(NavigateToFunctions);
-        NavigateToReservationsCommand = new RelayCommand<int>(NavigateToReservations); 
+        NavigateToReservationsCommand = new RelayCommand(NavigateToReservations);
     }
 
+    // Métodos para navegar a las vistas
     private void NavigateToFilms()
     {
         var filmsView = new FilmsView();
@@ -40,9 +42,10 @@ public class HomeViewModel
         functionsView.Show();
     }
 
-    public void NavigateToReservations(int functionId) // Cambiar a público
+    private void NavigateToReservations()
     {
-        var reservationsView = new ReservationsView(functionId);
+        // Pasar un functionId por defecto (por ejemplo, 0)
+        var reservationsView = new ReservationsView(0); // O cualquier otro valor por defecto
         reservationsView.Show();
     }
 }

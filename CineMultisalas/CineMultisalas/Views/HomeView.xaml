@@ -4,7 +4,6 @@
         Title="Inicio" Height="450" Width="450"
         WindowStartupLocation="CenterScreen">
     <Grid>
-
         <!-- Menú superior -->
         <Menu VerticalAlignment="Top" Background="#FF0078D7">
             <MenuItem Header="Archivo">
@@ -22,13 +21,12 @@
             <Button Content="Funciones" Command="{Binding NavigateToFunctionsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
             <Button Content="Ver Reservas" Command="{Binding NavigateToReservationsCommand}" Width="200" Style="{StaticResource PrimaryButtonStyle}"/>
         </StackPanel>
-        
+
         <!-- Botón de ayuda -->
         <Button Style="{StaticResource HelpButtonStyle}" 
-        Click="ButtonHelp_Click" 
-        HorizontalAlignment="Right" 
-        VerticalAlignment="Top" 
-        Margin="15"/>
-    
+                Click="ButtonHelp_Click" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Top" 
+                Margin="15"/>
     </Grid>
 </Window>

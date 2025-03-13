@@ -3,29 +3,46 @@ using CineMultisalas.Services;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace CineMultisalas.ViewModels
 {
     public class ReservationsViewModel : INotifyPropertyChanged
     {
         private readonly FirebaseService _firebaseService;
+        private readonly int? _functionId; // Usar int? para permitir valores nulos
+
         public ObservableCollection<Reservation> Reservations { get; set; }
 
-        public ReservationsViewModel(int functionId)
+        // Constructor sin parámetros (carga todas las reservas)
+        public ReservationsViewModel()
         {
             _firebaseService = new FirebaseService();
             Reservations = new ObservableCollection<Reservation>();
-            LoadReservations(functionId); // Cargar las reservas para la función seleccionada
+            LoadReservations(); // Cargar todas las reservas
         }
 
-        // Cargar las reservas desde Firebase para la función seleccionada
-        private async void LoadReservations(int functionId)
+        // Constructor con functionId (carga reservas filtradas)
+        public ReservationsViewModel(int functionId)
+        {
+            _firebaseService = new FirebaseService();
+            _functionId = functionId;
+            Reservations = new ObservableCollection<Reservation>();
+            LoadReservations(); // Cargar reservas filtradas
+        }
+
+        // Cargar reservas desde Firebase
+        private async void LoadReservations()
         {
             var reservations = await _firebaseService.GetDataAsync<Reservation>("reservations");
-            var filteredReservations = reservations.Where(r => r.FunctionId == functionId).ToList();
-            Reservations = new ObservableCollection<Reservation>(filteredReservations);
-            OnPropertyChanged(nameof(Reservations)); // Notificar cambios en la propiedad
+
+            // Filtrar solo si functionId tiene un valor
+            if (_functionId.HasValue)
+            {
+                reservations = reservations.Where(r => r.FunctionId == _functionId.Value).ToList();
+            }
+
+            Reservations = new ObservableCollection<Reservation>(reservations);
+            OnPropertyChanged(nameof(Reservations));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
